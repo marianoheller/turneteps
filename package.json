@@ -1,0 +1,21 @@
+{
+  "name": "terneteps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.4"
+  },
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "npm run clean && mkdir -p dist && cp www/index.js dist/ && spago bundle-app --to dist/main.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

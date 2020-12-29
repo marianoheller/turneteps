@@ -1,6 +1,7 @@
 module App.Request where
 
 import Prelude
+
 import App.Resources (Endpoint)
 import Data.Maybe (Maybe, fromMaybe)
 import Effect (Effect)
@@ -9,7 +10,7 @@ import Effect.Class (liftEffect)
 import Foreign.Object as Object
 import Milkis (Response)
 import Milkis as Milkis
-import Milkis.Impl.Node as MilkisImpl
+import Milkis.Impl.Node (nodeFetch)
 import Node.Process (lookupEnv)
 import Option as Option
 import Prim.Row (class Union)
@@ -31,7 +32,7 @@ _fetch ::
   | options
   } ->
   Aff Response
-_fetch = Milkis.fetch MilkisImpl.nodeFetch
+_fetch = Milkis.fetch nodeFetch
 
 fetch :: Endpoint -> Aff Response
 fetch endpoint = do
