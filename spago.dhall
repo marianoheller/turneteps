@@ -9,6 +9,7 @@ You can edit this file as you like.
   , "effect"
   , "milkis"
   , "node-process"
+  , "now"
   , "option"
   , "psci-support"
   ]
