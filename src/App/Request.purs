@@ -52,10 +52,6 @@ fetch endpoint = do
       { method: record.method
       , headers: M.makeHeaders { "X-Auth": (fromMaybe "NO-TOKEN" token) }
       }
-
-    goFetch = _fetch record.url
-
-    goFetchWithBody = _fetch record.url
   case record.body of
-    Nothing -> goFetch baseConfig
-    Just body -> goFetchWithBody $ Record.merge baseConfig { body }
+    Nothing -> _fetch record.url baseConfig
+    Just body -> _fetch record.url $ Record.merge baseConfig { body }
