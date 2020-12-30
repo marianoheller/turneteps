@@ -24,23 +24,23 @@ _fetch url opts = logger $ M.fetch nodeFetch url opts
 
 logger :: Aff Response -> Aff Response
 logger resAff = do
+  let
+    formatResponse :: Response -> String
+    formatResponse res =
+      let
+        url = show $ M.url res
+
+        status = show $ M.statusCode res
+
+        corch str = "[" <> str <> "]"
+      in
+        intercalate " "
+          $ [ (corch status)
+            , url
+            ]
   res <- resAff
   liftEffect $ log $ formatResponse res
   resAff
-
-formatResponse :: Response -> String
-formatResponse res =
-  let
-    url = show $ M.url res
-
-    status = show $ M.statusCode res
-
-    corch str = "[" <> str <> "]"
-  in
-    intercalate " "
-      $ [ (corch status)
-        , url
-        ]
 
 fetch :: Endpoint -> Aff Response
 fetch endpoint = do

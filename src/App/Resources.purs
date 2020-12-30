@@ -1,6 +1,7 @@
 module App.Resources where
 
 import Prelude
+import App.Date (ParsedDate)
 import Data.Newtype (wrap)
 import Milkis as Milkis
 import Option as Option
@@ -23,11 +24,11 @@ type EndpointExtras
 type Endpoint
   = Option.Record EndpointBase EndpointExtras
 
-misTurnos :: String -> Endpoint
+misTurnos :: ParsedDate -> Endpoint
 misTurnos dateFrom =
   Option.recordFromRecord
     { method: Milkis.getMethod
-    , url: wrap $ baseUrl <> "/user/reservation?max=10&offset=0&dateFrom=" <> dateFrom
+    , url: wrap $ baseUrl <> "/user/reservation?max=10&offset=0&dateFrom=" <> (show dateFrom)
     }
 
 profile :: Endpoint
