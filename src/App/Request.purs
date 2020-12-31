@@ -1,6 +1,7 @@
 module App.Request (fetch) where
 
 import Prelude
+
 import App.Env as Env
 import App.Resources (Resource(..))
 import Data.Argonaut (class DecodeJson)
@@ -43,8 +44,11 @@ logger resAff = do
 fetch :: forall a. DecodeJson a => Resource a -> Aff (Either String a)
 fetch (Resource resouce) = do
   token <- liftEffect Env.getToken
+  baseUrl <- liftEffect Env.getBaseUrl
   let
     record = Option.recordToRecord resouce
+
+    url = M.URL $ baseUrl <> record.url
 
     baseConfig =
       { method: record.method
@@ -53,7 +57,7 @@ fetch (Resource resouce) = do
 
     decode = (lmap show <<< Argonaut.decodeJson)
   rawResponse <- case record.body of
-    Nothing -> _fetch record.url baseConfig
-    Just body -> _fetch record.url $ Record.merge baseConfig { body }
+    Nothing -> _fetch url baseConfig
+    Just body -> _fetch url $ Record.merge baseConfig { body }
   eitherJson <- (map Argonaut.jsonParser) $ M.text rawResponse
   pure $ decode =<< eitherJson

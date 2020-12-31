@@ -12,7 +12,11 @@ getIds = do
   pure $ maybe [] (String.split (String.Pattern ",")) ids
 
 getBaseUrl :: Effect String
-getBaseUrl = (map $ fromMaybe "https://BASE_URL") $ lookupEnv "appbaseurl"
+getBaseUrl = do
+  mBaseUrl <- lookupEnv "appbaseurl"
+  pure $ fromMaybe "http://NO_BASE_URL" mBaseUrl
 
 getToken :: Effect String
-getToken = (map $ fromMaybe "NO-TOKEN") $ lookupEnv "usertoken"
+getToken = do
+  mToken <- lookupEnv "usertoken"
+  pure $ fromMaybe "NO-TOKEN" mToken

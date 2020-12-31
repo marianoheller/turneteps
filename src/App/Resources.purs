@@ -3,9 +3,6 @@ module App.Resources where
 import Prelude
 
 import App.Date (ParsedDate)
-import App.Env as Env
-import Data.Newtype (wrap)
-import Effect.Unsafe (unsafePerformEffect)
 import Milkis as M
 import Option as Option
 
@@ -16,7 +13,7 @@ type Slot
   = { start :: String, end :: String, status :: String }
 
 type ResourceBase
-  = ( method :: M.Method, url :: M.URL )
+  = ( method :: M.Method, url :: String )
 
 type ResourceExtras
   = ( body :: String )
@@ -29,15 +26,12 @@ type Turnos  -- TODO
     , exceptionKey :: String
     }
 
-baseUrl :: String
-baseUrl = unsafePerformEffect $ Env.getBaseUrl
-
 misTurnos :: ParsedDate -> Resource Turnos
 misTurnos dateFrom =
   Resource
     $ Option.recordFromRecord
         { method: M.getMethod
-        , url: wrap $ baseUrl <> "/user/reservation?max=10&offset=0&dateFrom=" <> (show dateFrom)
+        , url: "/user/reservation?max=10&offset=0&dateFrom=" <> (show dateFrom)
         }
 
 profile :: Resource String
@@ -45,7 +39,7 @@ profile =
   Resource
     $ Option.recordFromRecord
         { method: M.getMethod
-        , url: wrap $ baseUrl <> "/user/person"
+        , url: "/user/person"
         }
 
 fechas :: ClaseId -> Resource String
@@ -53,7 +47,7 @@ fechas claseId =
   Resource
     $ Option.recordFromRecord
         { method: M.getMethod
-        , url: wrap $ baseUrl <> "/user/megatlon/service/" <> claseId
+        , url: "/user/megatlon/service/" <> claseId
         }
 
 turnos :: ClaseId -> String -> Resource String
@@ -61,7 +55,7 @@ turnos claseId formattedDate =
   Resource
     $ Option.recordFromRecord
         { method: M.getMethod
-        , url: wrap $ baseUrl <> "/user/megatlon/service/" <> claseId <> "/slots/" <> formattedDate
+        , url: "/user/megatlon/service/" <> claseId <> "/slots/" <> formattedDate
         }
 
 reserva :: Slot -> ClaseId -> Resource String
@@ -69,6 +63,6 @@ reserva { start, end } claseId =
   Resource
     $ Option.recordFromRecord
         { method: M.postMethod
-        , url: wrap $ baseUrl <> "/user/megatlon/service/" <> claseId <> "/reservation"
+        , url: "/user/megatlon/service/" <> claseId <> "/reservation"
         , body: show { start, end }
         }
