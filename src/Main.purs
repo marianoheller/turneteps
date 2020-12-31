@@ -12,6 +12,12 @@ import Effect.Aff (Error, runAff_)
 import Effect.Class (liftEffect)
 import Effect.Console as Console
 
+
+{- 
+Error handling:
+  - En algunos casos el fetch tira "Left parsing error"
+  - Y en otros casos si falla el request pincha todo el Aff
+ -}
 main :: Effect Unit
 main =
   runAff_ handleResult do
