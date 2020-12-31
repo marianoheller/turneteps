@@ -4,7 +4,8 @@ You can edit this file as you like.
 -}
 { name = "my-project"
 , dependencies =
-  [ "console"
+  [ "argonaut"
+  , "console"
   , "dotenv"
   , "effect"
   , "formatters"
@@ -12,6 +13,7 @@ You can edit this file as you like.
   , "node-process"
   , "now"
   , "option"
+  , "proxy"
   , "psci-support"
   ]
 , packages = ./packages.dhall

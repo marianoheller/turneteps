@@ -1,7 +1,11 @@
 module App.Request (fetch) where
 
 import Prelude
-import App.Resources (Endpoint)
+import App.Resources (Resource(..))
+import Data.Argonaut (class DecodeJson)
+import Data.Argonaut as Argonaut
+import Data.Bifunctor (lmap)
+import Data.Either (Either)
 import Data.Foldable (intercalate)
 import Data.Maybe (Maybe(..), fromMaybe)
 import Effect (Effect)
@@ -31,27 +35,29 @@ logger resAff = do
         url = show $ M.url res
 
         status = show $ M.statusCode res
-
-        corch str = "[" <> str <> "]"
       in
         intercalate " "
-          $ [ (corch status)
+          $ [ "[" <> status <> "]"
             , url
             ]
   res <- resAff
   liftEffect $ log $ formatResponse res
   resAff
 
-fetch :: Endpoint -> Aff Response
-fetch endpoint = do
+fetch :: forall a. DecodeJson a => Resource a -> Aff (Either String a)
+fetch (Resource resouce) = do
   token <- liftEffect getTokenFromEnv
   let
-    record = Option.recordToRecord endpoint
+    record = Option.recordToRecord resouce
 
     baseConfig =
       { method: record.method
       , headers: M.makeHeaders { "X-Auth": (fromMaybe "NO-TOKEN" token) }
       }
-  case record.body of
+
+    decode = (lmap show <<< Argonaut.decodeJson)
+  rawResponse <- case record.body of
     Nothing -> _fetch record.url baseConfig
     Just body -> _fetch record.url $ Record.merge baseConfig { body }
+  eitherJson <- (map Argonaut.jsonParser) $ M.text rawResponse
+  pure $ decode =<< eitherJson

@@ -1,7 +1,6 @@
 module Main where
 
 import Prelude
-
 import App.Date as Date
 import App.Request (fetch)
 import App.Resources as Resources
@@ -25,5 +24,9 @@ main =
   launchAff_ do
     _ <- Dotenv.loadFile
     yesterday <- liftEffect $ Date.getYesterday
-    _ <- for (Date.parseDate yesterday) (fetch <<< Resources.misTurnos)
+    testData <- (map join) $ for (Date.parseDate yesterday) (fetch <<< Resources.misTurnos)
+    liftEffect $ log $ show testData
     liftEffect $ log "🍝"
+
+-- for' :: forall a b m t. Functor m => Bind t => Applicative m ⇒ Traversable t ⇒ t a → (a → m (t b)) → m (t b)
+-- for' d = (map join) <<< for d

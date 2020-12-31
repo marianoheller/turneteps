@@ -3,7 +3,7 @@ module App.Resources where
 import Prelude
 import App.Date (ParsedDate)
 import Data.Newtype (wrap)
-import Milkis as Milkis
+import Milkis as M
 import Option as Option
 
 baseUrl :: String
@@ -15,47 +15,57 @@ type ClaseId
 type Slot
   = { start :: String, end :: String, status :: String }
 
-type EndpointBase
-  = ( method :: Milkis.Method, url :: Milkis.URL )
+type ResourceBase
+  = ( method :: M.Method, url :: M.URL )
 
-type EndpointExtras
+type ResourceExtras
   = ( body :: String )
 
-type Endpoint
-  = Option.Record EndpointBase EndpointExtras
+newtype Resource a
+  = Resource (Option.Record ResourceBase ResourceExtras)
 
-misTurnos :: ParsedDate -> Endpoint
+type Turnos  -- TODO
+  = { requestId :: String
+    , exceptionKey :: String
+    }
+
+misTurnos :: ParsedDate -> Resource Turnos
 misTurnos dateFrom =
-  Option.recordFromRecord
-    { method: Milkis.getMethod
-    , url: wrap $ baseUrl <> "/user/reservation?max=10&offset=0&dateFrom=" <> (show dateFrom)
-    }
+  Resource
+    $ Option.recordFromRecord
+        { method: M.getMethod
+        , url: wrap $ baseUrl <> "/user/reservation?max=10&offset=0&dateFrom=" <> (show dateFrom)
+        }
 
-profile :: Endpoint
+profile :: Resource String
 profile =
-  Option.recordFromRecord
-    { method: Milkis.getMethod
-    , url: wrap $ baseUrl <> "/user/person"
-    }
+  Resource
+    $ Option.recordFromRecord
+        { method: M.getMethod
+        , url: wrap $ baseUrl <> "/user/person"
+        }
 
-fechas :: ClaseId -> Endpoint
+fechas :: ClaseId -> Resource String
 fechas claseId =
-  Option.recordFromRecord
-    { method: Milkis.getMethod
-    , url: wrap $ baseUrl <> "/user/megatlon/service/" <> claseId
-    }
+  Resource
+    $ Option.recordFromRecord
+        { method: M.getMethod
+        , url: wrap $ baseUrl <> "/user/megatlon/service/" <> claseId
+        }
 
-turnos :: ClaseId -> String -> Endpoint
+turnos :: ClaseId -> String -> Resource String
 turnos claseId formattedDate =
-  Option.recordFromRecord
-    { method: Milkis.getMethod
-    , url: wrap $ baseUrl <> "/user/megatlon/service/" <> claseId <> "/slots/" <> formattedDate
-    }
+  Resource
+    $ Option.recordFromRecord
+        { method: M.getMethod
+        , url: wrap $ baseUrl <> "/user/megatlon/service/" <> claseId <> "/slots/" <> formattedDate
+        }
 
-reserva :: Slot -> ClaseId -> Endpoint
+reserva :: Slot -> ClaseId -> Resource String
 reserva { start, end } claseId =
-  Option.recordFromRecord
-    { method: Milkis.postMethod
-    , url: wrap $ baseUrl <> "/user/megatlon/service/" <> claseId <> "/reservation"
-    , body: show { start, end }
-    }
+  Resource
+    $ Option.recordFromRecord
+        { method: M.postMethod
+        , url: wrap $ baseUrl <> "/user/megatlon/service/" <> claseId <> "/reservation"
+        , body: show { start, end }
+        }
