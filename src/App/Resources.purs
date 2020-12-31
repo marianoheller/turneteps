@@ -6,6 +6,7 @@ import Data.Newtype (wrap)
 import Milkis as M
 import Option as Option
 
+-- TODO: Move to env
 baseUrl :: String
 baseUrl = "https://api.turni.to/api"
 

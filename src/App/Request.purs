@@ -52,7 +52,7 @@ fetch (Resource resouce) = do
 
     baseConfig =
       { method: record.method
-      , headers: M.makeHeaders { "X-Auth": (fromMaybe "NO-TOKEN" token) }
+      , headers: M.makeHeaders { "X-Authorization": (fromMaybe "NO-TOKEN" token) }
       }
 
     decode = (lmap show <<< Argonaut.decodeJson)
