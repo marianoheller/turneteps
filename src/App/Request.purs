@@ -1,27 +1,23 @@
 module App.Request (fetch) where
 
 import Prelude
+import App.Env as Env
 import App.Resources (Resource(..))
 import Data.Argonaut (class DecodeJson)
 import Data.Argonaut as Argonaut
 import Data.Bifunctor (lmap)
 import Data.Either (Either)
 import Data.Foldable (intercalate)
-import Data.Maybe (Maybe(..), fromMaybe)
-import Effect (Effect)
+import Data.Maybe (Maybe(..))
 import Effect.Aff (Aff)
 import Effect.Class (liftEffect)
 import Effect.Class.Console (log)
 import Milkis (Response)
 import Milkis as M
 import Milkis.Impl.Node (nodeFetch)
-import Node.Process (lookupEnv)
 import Option as Option
 import Record as Record
 import Type.Row (class Union)
-
-getTokenFromEnv :: Effect (Maybe String)
-getTokenFromEnv = lookupEnv "usertoken"
 
 _fetch :: forall options trash. Union options trash M.Options => M.URL -> { method :: M.Method | options } -> Aff Response
 _fetch url opts = logger $ M.fetch nodeFetch url opts
@@ -46,13 +42,13 @@ logger resAff = do
 
 fetch :: forall a. DecodeJson a => Resource a -> Aff (Either String a)
 fetch (Resource resouce) = do
-  token <- liftEffect getTokenFromEnv
+  token <- liftEffect Env.getToken
   let
     record = Option.recordToRecord resouce
 
     baseConfig =
       { method: record.method
-      , headers: M.makeHeaders { "X-Authorization": (fromMaybe "NO-TOKEN" token) }
+      , headers: M.makeHeaders { "X-Authorization": token }
       }
 
     decode = (lmap show <<< Argonaut.decodeJson)

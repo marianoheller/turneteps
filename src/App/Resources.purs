@@ -1,14 +1,13 @@
 module App.Resources where
 
 import Prelude
+
 import App.Date (ParsedDate)
+import App.Env as Env
 import Data.Newtype (wrap)
+import Effect.Unsafe (unsafePerformEffect)
 import Milkis as M
 import Option as Option
-
--- TODO: Move to env
-baseUrl :: String
-baseUrl = "https://api.turni.to/api"
 
 type ClaseId
   = String
@@ -29,6 +28,9 @@ type Turnos  -- TODO
   = { requestId :: String
     , exceptionKey :: String
     }
+
+baseUrl :: String
+baseUrl = unsafePerformEffect $ Env.getBaseUrl
 
 misTurnos :: ParsedDate -> Resource Turnos
 misTurnos dateFrom =
