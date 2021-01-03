@@ -8,5 +8,6 @@
 /.purs*
 /.psa*
 /.spago
+/.vscode
 /dist
 .env
