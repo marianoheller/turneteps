@@ -7,10 +7,10 @@ import App.Resources (Resource(..))
 import Data.Argonaut (class DecodeJson)
 import Data.Argonaut as Argonaut
 import Data.Bifunctor (lmap)
-import Data.Either (Either)
+import Data.Either (Either(..))
 import Data.Foldable (intercalate)
 import Data.Maybe (Maybe(..))
-import Effect.Aff (Aff)
+import Effect.Aff (Aff, error, throwError)
 import Effect.Class (liftEffect)
 import Effect.Class.Console (log)
 import Milkis (Response)
@@ -41,7 +41,7 @@ logger resAff = do
   liftEffect $ log $ formatResponse res
   resAff
 
-fetch :: forall a. DecodeJson a => Resource a -> Aff (Either String a)
+fetch :: forall a. DecodeJson a => Resource a -> Aff a
 fetch (Resource resouce) = do
   token <- liftEffect Env.getToken
   baseUrl <- liftEffect Env.getBaseUrl
@@ -55,9 +55,14 @@ fetch (Resource resouce) = do
       , headers: M.makeHeaders { "X-Authorization": token }
       }
 
-    decode = (lmap show <<< Argonaut.decodeJson)
+    jsonParser = lmap error <<< Argonaut.jsonParser
+
+    decode = lmap (error <<< show) <<< Argonaut.decodeJson
   rawResponse <- case record.body of
     Nothing -> _fetch url baseConfig
     Just body -> _fetch url $ Record.merge baseConfig { body }
-  eitherJson <- (map Argonaut.jsonParser) $ M.text rawResponse
-  pure $ decode =<< eitherJson
+  eitherJson <- (map jsonParser) $ M.text rawResponse
+  case decode =<< eitherJson of
+    Right parsed -> pure parsed
+    Left err -> throwError err
+

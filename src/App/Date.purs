@@ -1,13 +1,16 @@
 module App.Date (ParsedDateTime, ParsedDate, parseDateTime, parseDate, getYesterday, parseDateString) where
 
 import Prelude
+
 import Control.Bind (bindFlipped)
+import Data.Bifunctor (lmap)
 import Data.DateTime (DateTime)
 import Data.Either (Either)
 import Data.Formatter.DateTime as F
 import Data.JSDate (JSDate, fromDateTime, toDateTime)
 import Data.Maybe (fromJust)
 import Effect (Effect)
+import Effect.Exception (Error, error)
 import Effect.Now (nowDateTime)
 import Partial.Unsafe (unsafePartialBecause)
 
@@ -29,14 +32,20 @@ instance showParsedDateTime :: Show ParsedDateTime where
 instance showParsedDate :: Show ParsedDate where
   show (MkParsedDate formattedStr) = formattedStr
 
-parseDateTime :: DateTime -> Either String ParsedDateTime
-parseDateTime = (map MkParsedDateTime) <<< F.formatDateTime dateTimeFormat
+formatDateTime' :: String -> DateTime -> Either Error String
+formatDateTime' str = lmap error <<< F.formatDateTime str
 
-parseDate :: DateTime -> Either String ParsedDate
-parseDate = (map MkParsedDate) <<< F.formatDateTime dateFormat
+unformatDateTime' :: String -> String -> Either Error DateTime
+unformatDateTime' str = lmap error <<< F.unformatDateTime str
 
-parseDateString :: String -> Either String ParsedDate
-parseDateString = (bindFlipped parseDate) <<< F.unformatDateTime dateFormat
+parseDateTime :: DateTime -> Either Error ParsedDateTime
+parseDateTime = (map MkParsedDateTime) <<< formatDateTime' dateTimeFormat
+
+parseDate :: DateTime -> Either Error ParsedDate
+parseDate = (map MkParsedDate) <<< formatDateTime' dateFormat
+
+parseDateString :: String -> Either Error ParsedDate
+parseDateString = (bindFlipped parseDate) <<< unformatDateTime' dateFormat
 
 foreign import subDays :: Int -> JSDate -> JSDate
 
