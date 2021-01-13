@@ -1,11 +1,10 @@
 module Main where
 
 import Prelude
-import App.Date as Date
-import App.Request as Request
+import App.Env (getLoginInfo)
 import App.Resources as Resources
+import App.Request as Request
 import Data.Either (Either(..))
-import Data.Traversable (for)
 import Dotenv (loadFile) as Dotenv
 import Effect (Effect)
 import Effect.Aff (Error, runAff_)
@@ -17,8 +16,8 @@ main =
   let
     app = do
       _ <- Dotenv.loadFile
-      yesterday <- liftEffect $ Date.getYesterday
-      testData <- for (Date.parseDate yesterday) (Request.fetch <<< Resources.misTurnos)
+      loginInput <- liftEffect getLoginInfo
+      testData <- Request.fetch $ Resources.login loginInput
       pure $ show testData
   in
     runAff_ handleResult app

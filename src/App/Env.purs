@@ -1,22 +1,25 @@
-module App.Env where
+module App.Env (getLoginInfo, LoginInput) where
 
 import Prelude
-import Data.Maybe (fromMaybe, maybe)
-import Data.String as String
+
+import Data.Maybe (fromMaybe)
 import Effect (Effect)
 import Node.Process (lookupEnv)
 
-getIds :: Effect (Array String)
-getIds = do
-  ids <- lookupEnv "appids"
-  pure $ maybe [] (String.split (String.Pattern ",")) ids
+getLoginKey :: String -> Effect String
+getLoginKey key = do
+  mValue <- lookupEnv key
+  pure $ fromMaybe (key <> " env var not found.") mValue
 
-getBaseUrl :: Effect String
-getBaseUrl = do
-  mBaseUrl <- lookupEnv "appbaseurl"
-  pure $ fromMaybe "http://NO_BASE_URL" mBaseUrl
+type LoginInput
+  = { username :: String
+    , password :: String
+    , grant_type :: String
+    }
 
-getToken :: Effect String
-getToken = do
-  mToken <- lookupEnv "usertoken"
-  pure $ fromMaybe "NO-TOKEN" mToken
+getLoginInfo :: Effect LoginInput
+getLoginInfo = do
+  username <- getLoginKey "username"
+  password <- getLoginKey "password"
+  grant_type <- getLoginKey "grant_type"
+  pure { username, password, grant_type }

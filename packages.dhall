@@ -109,3 +109,16 @@ let upstream =
       https://github.com/purescript/package-sets/releases/download/psc-0.13.8-20201223/packages.dhall sha256:a1a8b096175f841c4fef64c9b605fb0d691229241fd2233f6cf46e213de8a185
 
 in  upstream
+  with js-uri =
+    { dependencies =
+       [ "assert"
+       , "effect"
+       , "functions"
+       , "maybe"
+       , "psci-support"
+       ]
+    , repo =
+       "https://github.com/purescript-contrib/purescript-js-uri.git"
+    , version =
+        "v1.0.0"
+    }

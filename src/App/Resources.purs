@@ -1,10 +1,12 @@
 module App.Resources where
 
 import Prelude
-
-import App.Date (ParsedDate)
+import App.Creds (Creds, CredsData)
+import App.Env (LoginInput)
 import Milkis as M
 import Option as Option
+import Unsafe.Coerce (unsafeCoerce)
+import Web.URL.URLSearchParams as SearchParams
 
 type ClaseId
   = String
@@ -21,48 +23,22 @@ type ResourceExtras
 newtype Resource a
   = Resource (Option.Record ResourceBase ResourceExtras)
 
-type Turnos  -- TODO
-  = { requestId :: String
-    , exceptionKey :: String
-    }
+toFormData :: LoginInput -> String
+toFormData r = SearchParams.toString $ SearchParams.fromString (unsafeCoerce r)
 
-misTurnos :: ParsedDate -> Resource Turnos
-misTurnos dateFrom =
-  Resource
-    $ Option.recordFromRecord
-        { method: M.getMethod
-        , url: "/user/reservation?max=10&offset=0&dateFrom=" <> (show dateFrom)
-        }
-
-profile :: Resource String
-profile =
-  Resource
-    $ Option.recordFromRecord
-        { method: M.getMethod
-        , url: "/user/person"
-        }
-
-fechas :: ClaseId -> Resource String
-fechas claseId =
-  Resource
-    $ Option.recordFromRecord
-        { method: M.getMethod
-        , url: "/user/megatlon/service/" <> claseId
-        }
-
-turnos :: ClaseId -> String -> Resource String
-turnos claseId formattedDate =
-  Resource
-    $ Option.recordFromRecord
-        { method: M.getMethod
-        , url: "/user/megatlon/service/" <> claseId <> "/slots/" <> formattedDate
-        }
-
-reserva :: Slot -> ClaseId -> Resource String
-reserva { start, end } claseId =
+login :: LoginInput -> Resource CredsData
+login loginInput =
   Resource
     $ Option.recordFromRecord
         { method: M.postMethod
-        , url: "/user/megatlon/service/" <> claseId <> "/reservation"
-        , body: show { start, end }
+        , url: "https://users.megatlon.com.ar/oauth/token"
+        , body: toFormData loginInput
+        }
+
+misReservas :: Creds -> Resource String
+misReservas _ =
+  Resource
+    $ Option.recordFromRecord
+        { method: M.getMethod
+        , url: "/user/reservation?max=10&offset=0&dateFrom="
         }

@@ -13,8 +13,8 @@ You can edit this file as you like.
   , "node-process"
   , "now"
   , "option"
-  , "proxy"
   , "psci-support"
+  , "web-url"
   ]
 , packages = ./packages.dhall
 , sources = [ "src/**/*.purs", "test/**/*.purs" ]
