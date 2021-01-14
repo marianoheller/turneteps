@@ -1,9 +1,10 @@
-module App.Env (getLoginInfo, LoginInput) where
+module App.Env (getLoginInfo, LoginInput, getBasicAuth) where
 
 import Prelude
-
+import App.Creds (BasicAuth, mkBasicAuth)
 import Data.Maybe (fromMaybe)
 import Effect (Effect)
+import Foreign.Base64 (btoa)
 import Node.Process (lookupEnv)
 
 getLoginKey :: String -> Effect String
@@ -23,3 +24,8 @@ getLoginInfo = do
   password <- getLoginKey "password"
   grant_type <- getLoginKey "grant_type"
   pure { username, password, grant_type }
+
+getBasicAuth :: Effect BasicAuth
+getBasicAuth = do
+  basicAuthCode <- getLoginKey "basicAuthCode"
+  pure $ mkBasicAuth $ btoa basicAuthCode

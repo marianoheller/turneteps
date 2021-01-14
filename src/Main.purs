@@ -1,7 +1,7 @@
 module Main where
 
 import Prelude
-import App.Env (getLoginInfo)
+import App.Env as Env
 import App.Resources as Resources
 import App.Request as Request
 import Data.Either (Either(..))
@@ -16,15 +16,17 @@ main =
   let
     app = do
       _ <- Dotenv.loadFile
-      loginInput <- liftEffect getLoginInfo
-      testData <- Request.fetch $ Resources.login loginInput
+      loginInput <- liftEffect Env.getLoginInfo
+      basicAuth <- liftEffect Env.getBasicAuth
+      liftEffect $ Console.log $ show basicAuth
+      testData <- Request.fetch $ Resources.login basicAuth loginInput
       pure $ show testData
   in
     runAff_ handleResult app
 
 handleResult :: Either Error String -> Effect Unit
 handleResult eResult = case eResult of
-  Right result -> Console.log "result"
+  Right result -> Console.log result
   Left err -> do
     Console.error "Task could not be finished successfully"
     Console.errorShow err

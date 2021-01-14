@@ -1,4 +1,4 @@
-module App.Creds (Creds, CredsData, mkCreds) where
+module App.Creds (Creds, CredsData, BasicAuth, mkBasicAuth, mkCreds) where
 
 import Prelude
 import Data.Argonaut (class DecodeJson, decodeJson, (.:))
@@ -27,3 +27,12 @@ instance showCreds :: Show Creds where
 
 mkCreds :: CredsData -> Creds
 mkCreds = Creds
+
+newtype BasicAuth
+  = BasicAuth String
+
+instance showBasicAuth :: Show BasicAuth where
+  show (BasicAuth str) = "Basic " <> str
+
+mkBasicAuth :: String -> BasicAuth
+mkBasicAuth = BasicAuth

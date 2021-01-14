@@ -1,7 +1,6 @@
 module App.Request where
 
 import Prelude
-
 import App.Resources (Resource(..))
 import Data.Argonaut (class DecodeJson)
 import Data.Argonaut as Argonaut
@@ -49,9 +48,7 @@ fetch (Resource resouce) = do
 
     baseConfig =
       { method: record.method
-      -- TODO: to login need header "authorization": "Basic bWVnYXRsb246dXNlcg=="
-      -- , headers: M.makeHeaders { "X-Authorization": token }
-      , headers: M.makeHeaders { "content-type": "application/x-www-form-urlencoded" }
+      , headers: record.headers
       }
 
     jsonParser = lmap error <<< Argonaut.jsonParser
@@ -59,9 +56,7 @@ fetch (Resource resouce) = do
     decode = lmap (error <<< show) <<< Argonaut.decodeJson
   rawResponse <- case record.body of
     Nothing -> _fetch url baseConfig
-    Just body -> do
-      liftEffect $ log body
-      _fetch url $ Record.merge baseConfig { body }
+    Just body -> _fetch url $ Record.merge baseConfig { body }
   eitherJson <- (map jsonParser) $ M.text rawResponse
   case decode =<< eitherJson of
     Right parsed -> pure parsed
