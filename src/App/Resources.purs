@@ -1,7 +1,7 @@
 module App.Resources where
 
 import Prelude
-import App.Creds (BasicAuth, CredsData)
+import App.Creds (BasicAuth, Creds, CredsData)
 import App.Env (LoginInput)
 import Milkis as M
 import Option as Option
@@ -37,11 +37,15 @@ login basicAuth loginInput =
               }
         }
 
-{- 
 misReservas :: Creds -> Resource String
-misReservas _ =
+misReservas creds =
   Resource
     $ Option.recordFromRecord
         { method: M.getMethod
         , url: "/user/reservation?max=10&offset=0&dateFrom="
-        } -}
+        , headers:
+            M.makeHeaders
+              { "authorization": show creds
+              , "content-type": "application/json"
+              }
+        }

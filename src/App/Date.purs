@@ -1,17 +1,17 @@
 module App.Date (ParsedDateTime, ParsedDate, parseDateTime, parseDate, getYesterday, parseDateString) where
 
 import Prelude
-
 import Control.Bind (bindFlipped)
 import Data.Bifunctor (lmap)
 import Data.DateTime (DateTime)
 import Data.Either (Either)
 import Data.Formatter.DateTime as F
-import Data.JSDate (JSDate, fromDateTime, toDateTime)
+import Data.JSDate (fromDateTime, toDateTime)
 import Data.Maybe (fromJust)
 import Effect (Effect)
 import Effect.Exception (Error, error)
 import Effect.Now (nowDateTime)
+import Foreign.Date (subDays)
 import Partial.Unsafe (unsafePartialBecause)
 
 dateTimeFormat :: String
@@ -46,8 +46,6 @@ parseDate = (map MkParsedDate) <<< formatDateTime' dateFormat
 
 parseDateString :: String -> Either Error ParsedDate
 parseDateString = (bindFlipped parseDate) <<< unformatDateTime' dateFormat
-
-foreign import subDays :: Int -> JSDate -> JSDate
 
 getYesterday :: Effect DateTime
 getYesterday = do
