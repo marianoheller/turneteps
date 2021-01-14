@@ -2,9 +2,10 @@ module Main where
 
 import Prelude
 import App.Env as Env
-import App.Resources as Resources
 import App.Request as Request
+import App.Resources as Resources
 import Data.Either (Either(..))
+import Data.Tuple (Tuple(..))
 import Dotenv (loadFile) as Dotenv
 import Effect (Effect)
 import Effect.Aff (Error, runAff_)
@@ -16,9 +17,7 @@ main =
   let
     app = do
       _ <- Dotenv.loadFile
-      loginInput <- liftEffect Env.getLoginInfo
-      basicAuth <- liftEffect Env.getBasicAuth
-      liftEffect $ Console.log $ show basicAuth
+      Tuple loginInput basicAuth <- liftEffect Env.getAuthInfo
       testData <- Request.fetch $ Resources.login basicAuth loginInput
       pure $ show testData
   in
