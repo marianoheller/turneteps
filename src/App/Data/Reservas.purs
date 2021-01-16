@@ -1,4 +1,4 @@
-module App.Data.Reservas where
+module App.Data.Reservas (Reservas) where
 
 import Prelude
 import Data.Argonaut (class DecodeJson, decodeJson, (.:))
@@ -18,6 +18,7 @@ newtype Reservas
 instance showReservas :: Show Reservas where
   show (Reservas reservaData) = show reservaData
 
+-- TODO: improve decoding
 instance decodeJsonReservas :: DecodeJson Reservas where
   decodeJson json = do
     obj <- decodeJson json

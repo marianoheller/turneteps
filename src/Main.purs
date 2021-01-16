@@ -20,6 +20,7 @@ main =
       Tuple loginInput basicAuth <- liftEffect Env.getAuthInfo
       creds <- Request.fetch $ Resources.login basicAuth loginInput
       reservas <- Request.fetch $ Resources.misReservas creds
+      clases <- Request.fetch $ Resources.clases creds
       pure $ show reservas
   in
     runAff_ handleResult app

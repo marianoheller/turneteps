@@ -2,6 +2,7 @@ module App.Resources where
 
 import Prelude
 
+import App.Data.Clases (Clases)
 import App.Data.Creds (BasicAuth, Creds)
 import App.Data.Reservas (Reservas)
 import App.Env (LoginInput)
@@ -45,6 +46,20 @@ misReservas creds =
     $ Option.recordFromRecord
         { method: M.postMethod
         , url: "https://classes.megatlon.com.ar/api/service/class/book/list"
+        , headers:
+            M.makeHeaders
+              { "authorization": show creds
+              , "content-type": "application/json"
+              }
+        }
+
+clases :: Creds -> Resource Clases
+clases creds =
+  Resource
+    $ Option.recordFromRecord
+        { method: M.postMethod
+        , url: "https://classes.megatlon.com.ar/api/service/class/club/list"
+        , body: "{\"clubId\": 36}"
         , headers:
             M.makeHeaders
               { "authorization": show creds
