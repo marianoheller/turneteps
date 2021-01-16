@@ -1,4 +1,4 @@
-module App.Creds (Creds, CredsData, BasicAuth, mkBasicAuth, mkCreds) where
+module App.Data.Creds (Creds, CredsData, BasicAuth, mkBasicAuth) where
 
 import Prelude
 import Data.Argonaut (class DecodeJson, decodeJson, (.:))
@@ -24,9 +24,6 @@ instance decodeJsonCreds :: DecodeJson Creds where
 
 instance showCreds :: Show Creds where
   show (Creds r) = r.token_type <> " " <> r.access_token
-
-mkCreds :: CredsData -> Creds
-mkCreds = Creds
 
 newtype BasicAuth
   = BasicAuth String

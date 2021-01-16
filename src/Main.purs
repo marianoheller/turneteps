@@ -18,8 +18,9 @@ main =
     app = do
       _ <- Dotenv.loadFile
       Tuple loginInput basicAuth <- liftEffect Env.getAuthInfo
-      testData <- Request.fetch $ Resources.login basicAuth loginInput
-      pure $ show testData
+      creds <- Request.fetch $ Resources.login basicAuth loginInput
+      reservas <- Request.fetch $ Resources.misReservas creds
+      pure $ show reservas
   in
     runAff_ handleResult app
 

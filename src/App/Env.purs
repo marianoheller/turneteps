@@ -1,7 +1,7 @@
 module App.Env (LoginInput, getLoginInfo, getAuthInfo, getBasicAuth) where
 
 import Prelude
-import App.Creds (BasicAuth, mkBasicAuth)
+import App.Data.Creds (BasicAuth, mkBasicAuth)
 import Data.Bitraversable (bisequence)
 import Data.Maybe (fromMaybe)
 import Data.Tuple (Tuple(..))

@@ -1,7 +1,9 @@
 module App.Resources where
 
 import Prelude
-import App.Creds (BasicAuth, Creds, CredsData)
+
+import App.Data.Creds (BasicAuth, Creds)
+import App.Data.Reservas (Reservas)
 import App.Env (LoginInput)
 import Milkis as M
 import Option as Option
@@ -23,7 +25,7 @@ newtype Resource a
 toFormData :: LoginInput -> String
 toFormData r = SearchParams.toString $ SearchParams.fromString (unsafeCoerce r)
 
-login :: BasicAuth -> LoginInput -> Resource CredsData
+login :: BasicAuth -> LoginInput -> Resource Creds
 login basicAuth loginInput =
   Resource
     $ Option.recordFromRecord
@@ -37,12 +39,12 @@ login basicAuth loginInput =
               }
         }
 
-misReservas :: Creds -> Resource String
+misReservas :: Creds -> Resource Reservas
 misReservas creds =
   Resource
     $ Option.recordFromRecord
-        { method: M.getMethod
-        , url: "/user/reservation?max=10&offset=0&dateFrom="
+        { method: M.postMethod
+        , url: "https://classes.megatlon.com.ar/api/service/class/book/list"
         , headers:
             M.makeHeaders
               { "authorization": show creds
