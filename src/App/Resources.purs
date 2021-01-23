@@ -59,7 +59,7 @@ clases creds =
     $ Option.recordFromRecord
         { method: M.postMethod
         , url: "https://classes.megatlon.com.ar/api/service/class/club/list"
-        , body: "{\"clubId\": 36}"
+        , body: "{\"clubId\": 36}" -- FIXME: not hardcoded
         , headers:
             M.makeHeaders
               { "authorization": show creds

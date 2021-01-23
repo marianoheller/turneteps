@@ -1,7 +1,10 @@
-module App.Data.Clases (Clases) where
+module App.Data.Clases (Clases(..), Clase(..), ClaseData, singleton) where
 
 import Prelude
-import Data.Argonaut (class DecodeJson, decodeJson, (.:))
+import App.Data.Date (CustomDateTime, parseDateTime)
+import Data.Argonaut (class DecodeJson, JsonDecodeError(..), decodeJson, (.:))
+import Data.Bifunctor (lmap)
+import Data.Traversable (traverse)
 
 type ClaseData
   = { claseId :: Int
@@ -9,22 +12,46 @@ type ClaseData
     , disciplinaId :: Int
     , disponibilidad :: String
     , duracion :: String
-    , fecha :: String
+    , fecha :: CustomDateTime
     , reservas :: Int
     }
 
+newtype Clase
+  = Clase ClaseData
+
+instance showClase :: Show Clase where
+  show (Clase clasesData) = show clasesData
+
 newtype Clases
-  = Clases (Array ClaseData)
+  = Clases (Array Clase)
 
-instance showReservas :: Show Clases where
-  show (Clases clasesData) = show clasesData
+instance semigroupClases :: Semigroup Clases where
+  append (Clases a) (Clases b) = Clases (a <> b)
 
--- TODO: improve decoding
+instance decodeJsonClase :: DecodeJson Clase where
+  decodeJson json = do
+    let
+      parseDateTime' = lmap (TypeMismatch <<< show) <<< parseDateTime
+    obj <- decodeJson json
+    claseId <- obj .: "claseId"
+    coachId <- obj .: "coachId"
+    disciplinaId <- obj .: "disciplinaId"
+    disponibilidad <- obj .: "disponibilidad"
+    duracion <- obj .: "duracion"
+    unparsedFecha <- obj .: "fecha"
+    fecha <- parseDateTime' unparsedFecha
+    reservas <- obj .: "reservas"
+    pure $ Clase { claseId, coachId, disciplinaId, disponibilidad, duracion, fecha, reservas }
+
 instance decodeJsonReservas :: DecodeJson Clases where
   decodeJson json = do
     obj <- decodeJson json
     result <- obj .: "result"
-    pure $ Clases result
+    arrClases <- traverse decodeJson result
+    pure $ Clases arrClases
+
+singleton :: Clase -> Clases
+singleton c = Clases [ c ]
 
 {- 
 
