@@ -1,10 +1,14 @@
-module App.Data.Clases (Clases(..), Clase(..), ClaseData, singleton) where
+module App.Data.Clases (Clases(..), Clase(..), ClaseData, groupPerDay) where
 
 import Prelude
-import App.Data.Date (CustomDateTime, parseDateTime)
+import App.Data.Date (CustomDateTime, parseDateTime, day)
 import Data.Argonaut (class DecodeJson, JsonDecodeError(..), decodeJson, (.:))
 import Data.Bifunctor (lmap)
+import Data.Date (Day)
+import Data.Map (Map)
 import Data.Traversable (traverse)
+import Data.Tuple (Tuple(..))
+import Data.Map as M
 
 type ClaseData
   = { claseId :: Int
@@ -20,10 +24,13 @@ newtype Clase
   = Clase ClaseData
 
 instance showClase :: Show Clase where
-  show (Clase clasesData) = show clasesData
+  show (Clase clase) = show clase
 
 newtype Clases
   = Clases (Array Clase)
+
+instance showClases :: Show Clases where
+  show (Clases clases) = show clases
 
 instance semigroupClases :: Semigroup Clases where
   append (Clases a) (Clases b) = Clases (a <> b)
@@ -52,6 +59,13 @@ instance decodeJsonReservas :: DecodeJson Clases where
 
 singleton :: Clase -> Clases
 singleton c = Clases [ c ]
+
+groupPerDay :: Clases -> Map Day Clases
+groupPerDay (Clases clases) =
+  let
+    mapper c@(Clase d) = Tuple (day d.fecha) (singleton c)
+  in
+    M.fromFoldableWith (<>) $ map mapper clases
 
 {- 
 

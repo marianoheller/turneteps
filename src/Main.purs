@@ -1,11 +1,12 @@
 module Main where
 
 import Prelude
-
+import App.Data.Reservas (groupPerDay)
 import App.Env as Env
 import App.Request as Request
 import App.Resources as Resources
 import Data.Either (Either(..))
+import Data.Map.Internal (keys)
 import Data.Tuple (Tuple(..))
 import Dotenv (loadFile) as Dotenv
 import Effect (Effect)
@@ -22,7 +23,7 @@ main =
       creds <- Request.fetch $ Resources.login basicAuth loginInput
       reservas <- Request.fetch $ Resources.misReservas creds
       clases <- Request.fetch $ Resources.clases creds
-      pure $ show reservas
+      pure $ show $ keys $ groupPerDay reservas
   in
     runAff_ handleResult app
 
