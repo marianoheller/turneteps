@@ -1,10 +1,12 @@
 module App.Data.Reservas (Reservas) where
 
 import Prelude
-import Data.Argonaut (class DecodeJson, decodeJson, (.:))
+import App.Data.Date (CustomDateTime, parseDateTime)
+import Data.Argonaut (class DecodeJson, JsonDecodeError(..), decodeJson, (.:))
+import Data.Bifunctor (lmap)
 
 type ReservaData
-  = { fechaHora :: String
+  = { fechaHora :: CustomDateTime
     , disciplina :: String
     , coach :: String
     , posicion :: String
@@ -12,13 +14,32 @@ type ReservaData
     , claseId :: Int
     }
 
+newtype Reserva
+  = Reserva ReservaData
+
+instance showReserva :: Show Reserva where
+  show (Reserva reserva) = show reserva
+
 newtype Reservas
-  = Reservas (Array ReservaData)
+  = Reservas (Array Reserva)
 
 instance showReservas :: Show Reservas where
-  show (Reservas reservaData) = show reservaData
+  show (Reservas reservas) = show reservas
 
--- TODO: improve decoding
+instance decodeJsonReserva :: DecodeJson Reserva where
+  decodeJson json = do
+    let
+      parseDateTime' = lmap (TypeMismatch <<< show) <<< parseDateTime
+    obj <- decodeJson json
+    unparsedFechaHora <- obj .: "fechaHora"
+    fechaHora <- parseDateTime' unparsedFechaHora
+    disciplina <- obj .: "disciplina"
+    coach <- obj .: "coach"
+    posicion <- obj .: "posicion"
+    clubId <- obj .: "clubId"
+    claseId <- obj .: "claseId"
+    pure $ Reserva { fechaHora, disciplina, coach, posicion, clubId, claseId }
+
 instance decodeJsonReservas :: DecodeJson Reservas where
   decodeJson json = do
     obj <- decodeJson json

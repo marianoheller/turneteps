@@ -19,8 +19,6 @@ nombre: "1. Musculación + Cardio"
 tipo: null
 
  -}
-asd :: String
-asd = "2021-01-16 07:00:00.0"
 
 groupPerDay :: Clases -> Map Day Clases
 groupPerDay (Clases clases) =
