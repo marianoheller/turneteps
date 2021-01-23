@@ -1,7 +1,7 @@
 module Main where
 
 import Prelude
-import App.Data.Reservas (groupPerDay)
+import App.Data.Reservas (groupPerDateTime)
 import App.Env as Env
 import App.Request as Request
 import App.Resources as Resources
@@ -23,7 +23,7 @@ main =
       creds <- Request.fetch $ Resources.login basicAuth loginInput
       reservas <- Request.fetch $ Resources.misReservas creds
       clases <- Request.fetch $ Resources.clases creds
-      pure $ show $ keys $ groupPerDay reservas
+      pure $ show $ keys $ groupPerDateTime reservas
   in
     runAff_ handleResult app
 

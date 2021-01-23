@@ -1,13 +1,12 @@
-module App.Data.Reservas (Reservas(..), Reserva(..), ReservaData, groupPerDay) where
+module App.Data.Reservas (Reservas(..), Reserva(..), ReservaData, groupPerDateTime) where
 
 import Prelude
-import App.Data.Date (CustomDateTime, parseDateTime, day)
+import App.Data.Date (CustomDateTime, parseDateTime)
 import Data.Argonaut (class DecodeJson, JsonDecodeError(..), decodeJson, (.:))
 import Data.Bifunctor (lmap)
-import Data.Date (Day)
 import Data.Map (Map)
-import Data.Tuple (Tuple(..))
 import Data.Map as M
+import Data.Tuple (Tuple(..))
 
 type ReservaData
   = { fechaHora :: CustomDateTime
@@ -56,10 +55,10 @@ instance decodeJsonReservas :: DecodeJson Reservas where
 singleton :: Reserva -> Reservas
 singleton r = Reservas [ r ]
 
-groupPerDay :: Reservas -> Map Day Reservas
-groupPerDay (Reservas reservas) =
+groupPerDateTime :: Reservas -> Map CustomDateTime Reservas
+groupPerDateTime (Reservas reservas) =
   let
-    mapper c@(Reserva r) = Tuple (day r.fechaHora) (singleton c)
+    mapper c@(Reserva r) = Tuple r.fechaHora (singleton c)
   in
     M.fromFoldableWith (<>) $ map mapper reservas
 
