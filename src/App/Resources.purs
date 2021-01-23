@@ -1,13 +1,14 @@
 module App.Resources where
 
 import Prelude
-
 import App.Data.Clases (Clases)
 import App.Data.Creds (BasicAuth, Creds)
 import App.Data.Reservas (Reservas)
 import App.Env (LoginInput)
+import Data.Argonaut (encodeJson, stringify)
 import Milkis as M
 import Option as Option
+import ReservaResult (ReservaResult)
 import Unsafe.Coerce (unsafeCoerce)
 import Web.URL.URLSearchParams as SearchParams
 
@@ -59,7 +60,21 @@ clases creds =
     $ Option.recordFromRecord
         { method: M.postMethod
         , url: "https://classes.megatlon.com.ar/api/service/class/club/list"
-        , body: "{\"clubId\": 36}" -- FIXME: not hardcoded
+        , body: stringify $ encodeJson { clubId: 36 } -- FIXME: not hardcoded
+        , headers:
+            M.makeHeaders
+              { "authorization": show creds
+              , "content-type": "application/json"
+              }
+        }
+
+reserva :: Creds -> Int -> Resource ReservaResult
+reserva creds claseId =
+  Resource
+    $ Option.recordFromRecord
+        { method: M.postMethod
+        , url: "https://classes.megatlon.com.ar/api/service/class/book"
+        , body: stringify $ encodeJson { claseId }
         , headers:
             M.makeHeaders
               { "authorization": show creds
