@@ -1,9 +1,8 @@
 module App.Data.Reservas (Reservas(..), Reserva(..), ReservaData, groupPerDateTime) where
 
 import Prelude
-import App.Data.Date (CustomDateTime, parseDateTime)
-import Data.Argonaut (class DecodeJson, JsonDecodeError(..), decodeJson, (.:))
-import Data.Bifunctor (lmap)
+import App.Data.Date (CustomDateTime)
+import Data.Argonaut (class DecodeJson, decodeJson, (.:))
 import Data.Map (Map)
 import Data.Map as M
 import Data.Tuple (Tuple(..))
@@ -34,11 +33,8 @@ instance semigroupReservas :: Semigroup Reservas where
 
 instance decodeJsonReserva :: DecodeJson Reserva where
   decodeJson json = do
-    let
-      parseDateTime' = lmap (TypeMismatch <<< show) <<< parseDateTime
     obj <- decodeJson json
-    unparsedFechaHora <- obj .: "fechaHora"
-    fechaHora <- parseDateTime' unparsedFechaHora
+    fechaHora <- obj .: "fechaHora"
     disciplina <- obj .: "disciplina"
     coach <- obj .: "coach"
     posicion <- obj .: "posicion"

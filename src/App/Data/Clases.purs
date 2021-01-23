@@ -1,9 +1,8 @@
 module App.Data.Clases (Clases(..), Clase(..), ClaseData, groupPerDateTime) where
 
 import Prelude
-import App.Data.Date (CustomDateTime, parseDateTime)
-import Data.Argonaut (class DecodeJson, JsonDecodeError(..), decodeJson, (.:))
-import Data.Bifunctor (lmap)
+import App.Data.Date (CustomDateTime)
+import Data.Argonaut (class DecodeJson, decodeJson, (.:))
 import Data.Map (Map)
 import Data.Map as M
 import Data.Traversable (traverse)
@@ -36,16 +35,13 @@ instance semigroupClases :: Semigroup Clases where
 
 instance decodeJsonClase :: DecodeJson Clase where
   decodeJson json = do
-    let
-      parseDateTime' = lmap (TypeMismatch <<< show) <<< parseDateTime
     obj <- decodeJson json
     claseId <- obj .: "claseId"
     coachId <- obj .: "coachId"
     disciplinaId <- obj .: "disciplinaId"
     disponibilidad <- obj .: "disponibilidad"
     duracion <- obj .: "duracion"
-    unparsedFecha <- obj .: "fecha"
-    fecha <- parseDateTime' unparsedFecha
+    fecha <- obj .: "fecha"
     reservas <- obj .: "reservas"
     pure $ Clase { claseId, coachId, disciplinaId, disponibilidad, duracion, fecha, reservas }
 

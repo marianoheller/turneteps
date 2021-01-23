@@ -1,7 +1,8 @@
 module App.Data.Date (CustomDateTime, parseDateTime) where
 
 import Prelude
-import Data.Bifunctor (bimap)
+import Data.Argonaut (class DecodeJson, JsonDecodeError(..), decodeJson)
+import Data.Bifunctor (bimap, lmap)
 import Data.DateTime (DateTime)
 import Data.Either (Either, either)
 import Data.Formatter.DateTime as F
@@ -21,6 +22,14 @@ instance eqCustomDateTime :: Eq CustomDateTime where
 
 instance ordCustomDateTime :: Ord CustomDateTime where
   compare (CustomDateTime a) (CustomDateTime b) = compare a b
+
+instance decodeJsonCustomDateTime :: DecodeJson CustomDateTime where
+  decodeJson json = do
+    let
+      parseDateTime' = lmap (TypeMismatch <<< show) <<< parseDateTime
+    unparsed <- decodeJson json
+    parsed <- parseDateTime' unparsed
+    pure parsed
 
 parseDateTime :: String -> Either Error CustomDateTime
 parseDateTime = bimap error CustomDateTime <<< F.unformatDateTime dateTimeFormat
