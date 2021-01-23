@@ -1,17 +1,16 @@
-module App.Data.Date (CustomDateTime, parseDateTime, now, addDays) where
+module App.Data.Date (CustomDateTime, parseDateTime, now, toDate) where
 
 import Prelude
+
 import Data.Argonaut (class DecodeJson, JsonDecodeError(..), decodeJson)
 import Data.Bifunctor (bimap, lmap)
-import Data.DateTime (DateTime)
+import Data.DateTime (Date, DateTime, date)
 import Data.Either (Either, either)
 import Data.Formatter.DateTime as F
-import Data.JSDate (fromDateTime)
 import Data.JSDate as JSDate
 import Data.Maybe (fromJust)
 import Effect (Effect)
 import Effect.Exception (Error, error)
-import Foreign.Date as ForeignDate
 import Partial.Unsafe (unsafePartial)
 
 dateTimeFormat :: String
@@ -45,5 +44,6 @@ now = do
   jsdate <- JSDate.now
   pure $ CustomDateTime $ unsafePartial $ fromJust $ JSDate.toDateTime jsdate
 
-addDays :: Int -> CustomDateTime -> CustomDateTime
-addDays n (CustomDateTime dt) = CustomDateTime $ unsafePartial $ fromJust $ JSDate.toDateTime $ ForeignDate.addDays n (fromDateTime dt)
+toDate :: CustomDateTime -> Date
+toDate (CustomDateTime dt) = date dt
+

@@ -1,8 +1,9 @@
-module App.Data.Clases (Clases(..), Clase(..), ClaseData, groupPerDateTime) where
+module App.Data.Clases (Clases(..), Clase(..), ClaseData, groupPerDate) where
 
 import Prelude
-import App.Data.Date (CustomDateTime)
+import App.Data.Date (CustomDateTime, toDate)
 import Data.Argonaut (class DecodeJson, decodeJson, (.:))
+import Data.Date (Date)
 import Data.Map (Map)
 import Data.Map as M
 import Data.Traversable (traverse)
@@ -55,10 +56,10 @@ instance decodeJsonReservas :: DecodeJson Clases where
 singleton :: Clase -> Clases
 singleton c = Clases [ c ]
 
-groupPerDateTime :: Clases -> Map CustomDateTime Clases
-groupPerDateTime (Clases clases) =
+groupPerDate :: Clases -> Map Date Clases
+groupPerDate (Clases clases) =
   let
-    mapper c@(Clase d) = Tuple d.fecha (singleton c)
+    mapper c@(Clase d) = Tuple (toDate d.fecha) (singleton c)
   in
     M.fromFoldableWith (<>) $ map mapper clases
 
