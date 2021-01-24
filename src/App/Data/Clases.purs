@@ -6,6 +6,7 @@ import Data.Argonaut (class DecodeJson, decodeJson, (.:))
 import Data.Date (Date)
 import Data.Map (Map)
 import Data.Map as M
+import Data.Newtype (class Newtype)
 import Data.Traversable (traverse)
 import Data.Tuple (Tuple(..))
 
@@ -33,6 +34,8 @@ instance showClases :: Show Clases where
 
 instance semigroupClases :: Semigroup Clases where
   append (Clases a) (Clases b) = Clases (a <> b)
+
+derive instance newTypeClases :: Newtype Clases _
 
 instance decodeJsonClase :: DecodeJson Clase where
   decodeJson json = do

@@ -8,6 +8,7 @@ You can edit this file as you like.
   , "console"
   , "dotenv"
   , "effect"
+  , "filterable"
   , "formatters"
   , "milkis"
   , "node-process"

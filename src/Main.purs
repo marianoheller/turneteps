@@ -9,7 +9,6 @@ import App.Env as Env
 import App.Request as Request
 import App.Resources as Resources
 import Data.Either (Either(..))
-import Data.Map.Internal (keys)
 import Data.Tuple (Tuple(..))
 import Dotenv (loadFile) as Dotenv
 import Effect (Effect)
@@ -28,7 +27,7 @@ main =
       creds <- Request.fetch $ Resources.login basicAuth loginInput
       reservas <- Request.fetch $ Resources.misReservas creds
       clases <- Request.fetch $ Resources.clases creds
-      pure $ show $ keys $ BL.getTargetClases hoy (Reservas.groupPerDate reservas) (Clases.groupPerDate clases)
+      pure $ show $ BL.process hoy (Reservas.groupPerDate reservas) (Clases.groupPerDate clases)
   in
     runAff_ handleResult app
 

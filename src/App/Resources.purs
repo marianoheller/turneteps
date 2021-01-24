@@ -12,6 +12,7 @@ import ReservaResult (ReservaResult)
 import Unsafe.Coerce (unsafeCoerce)
 import Web.URL.URLSearchParams as SearchParams
 
+-- TODO: move baseurl to env
 type Slot
   = { start :: String, end :: String, status :: String }
 
