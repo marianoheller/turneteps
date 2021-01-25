@@ -1,13 +1,13 @@
 module Main where
 
 import Prelude
-
 import App.BL as BL
 import App.Data.Clases as Clases
 import App.Data.Reservas as Reservas
 import App.Env as Env
 import App.Request as Request
 import App.Resources as Resources
+import Control.Parallel (parallel, sequential)
 import Data.Either (Either(..))
 import Data.Tuple (Tuple(..))
 import Dotenv (loadFile) as Dotenv
@@ -20,13 +20,18 @@ import Foreign.Date (today)
 main :: Effect Unit
 main =
   let
+    initialResources creds =
+      sequential
+        $ Tuple
+        <$> parallel (Request.fetch $ Resources.misReservas creds)
+        <*> parallel (Request.fetch $ Resources.clases creds)
+
     app = do
       _ <- Dotenv.loadFile
-      Tuple loginInput basicAuth <- liftEffect Env.getAuthInfo
       hoy <- liftEffect today
+      Tuple loginInput basicAuth <- liftEffect Env.getAuthInfo
       creds <- Request.fetch $ Resources.login basicAuth loginInput
-      reservas <- Request.fetch $ Resources.misReservas creds
-      clases <- Request.fetch $ Resources.clases creds
+      Tuple reservas clases <- initialResources creds
       pure $ show $ BL.process hoy (Reservas.groupPerDate reservas) (Clases.groupPerDate clases)
   in
     runAff_ handleResult app
