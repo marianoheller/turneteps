@@ -1,4 +1,4 @@
-module App.Env (LoginInput, getLoginInfo, getAuthInfo, getBasicAuth) where
+module App.Env where
 
 import Prelude
 import App.Data.Creds (BasicAuth, mkBasicAuth)
@@ -34,3 +34,14 @@ getBasicAuth = do
 
 getAuthInfo :: Effect (Tuple LoginInput BasicAuth)
 getAuthInfo = bisequence (Tuple getLoginInfo getBasicAuth)
+
+type BaseUrls
+  = { apiUrl :: String
+    , usersUrl :: String
+    }
+
+getBaseUrls :: Effect BaseUrls
+getBaseUrls = do
+  apiUrl <- getEnvByKey "baseApiUrl"
+  usersUrl <- getEnvByKey "baseUsersUrl"
+  pure { apiUrl, usersUrl }

@@ -22,22 +22,23 @@ import Foreign.Date (tomorrow)
 main :: Effect (Promise String)
 main =
   let
-    initialResources creds =
+    initialResources apiUrl creds =
       sequential
         $ Tuple
-        <$> parallel (Request.fetch $ Resources.misReservas creds)
-        <*> parallel (Request.fetch $ Resources.clases creds)
+        <$> parallel (Request.fetch $ Resources.misReservas apiUrl creds)
+        <*> parallel (Request.fetch $ Resources.clases apiUrl creds)
 
     app :: Aff String
     app = do
       _ <- Dotenv.loadFile
       lowerBound <- liftEffect tomorrow
+      { apiUrl, usersUrl } <- liftEffect Env.getBaseUrls
       Tuple loginInput basicAuth <- liftEffect Env.getAuthInfo
-      creds <- Request.fetch $ Resources.login basicAuth loginInput
-      Tuple reservas clases <- initialResources creds
+      creds <- Request.fetch $ Resources.login usersUrl basicAuth loginInput
+      Tuple reservas clases <- initialResources apiUrl creds
       let
         targetClases = BL.process lowerBound (Reservas.groupPerDate reservas) (Clases.groupPerDate clases)
-      results <- sequential $ for (unwrap targetClases) (parallel <<< Request.fetch <<< Resources.reserva creds)
+      results <- sequential $ for (unwrap targetClases) (parallel <<< Request.fetch <<< Resources.reserva apiUrl creds)
       pure $ show results <> show targetClases
   in
     fromAff app

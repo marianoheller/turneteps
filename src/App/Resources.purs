@@ -28,12 +28,12 @@ newtype Resource a
 toFormData :: LoginInput -> String
 toFormData r = SearchParams.toString $ SearchParams.fromString (unsafeCoerce r)
 
-login :: BasicAuth -> LoginInput -> Resource Creds
-login basicAuth loginInput =
+login :: String -> BasicAuth -> LoginInput -> Resource Creds
+login usersUrl basicAuth loginInput =
   Resource
     $ Option.recordFromRecord
         { method: M.postMethod
-        , url: "https://users.megatlon.com.ar/oauth/token"
+        , url: usersUrl <> "/oauth/token"
         , body: toFormData loginInput
         , headers:
             M.makeHeaders
@@ -42,12 +42,12 @@ login basicAuth loginInput =
               }
         }
 
-misReservas :: Creds -> Resource Reservas
-misReservas creds =
+misReservas :: String -> Creds -> Resource Reservas
+misReservas apiUrl creds =
   Resource
     $ Option.recordFromRecord
         { method: M.postMethod
-        , url: "https://classes.megatlon.com.ar/api/service/class/book/list"
+        , url: apiUrl <> "/api/service/class/book/list"
         , headers:
             M.makeHeaders
               { "authorization": show creds
@@ -55,12 +55,12 @@ misReservas creds =
               }
         }
 
-clases :: Creds -> Resource Clases
-clases creds =
+clases :: String -> Creds -> Resource Clases
+clases apiUrl creds =
   Resource
     $ Option.recordFromRecord
         { method: M.postMethod
-        , url: "https://classes.megatlon.com.ar/api/service/class/club/list"
+        , url: apiUrl <> "/api/service/class/club/list"
         , body: stringify $ encodeJson { clubId: 36 } -- FIXME: not hardcoded
         , headers:
             M.makeHeaders
@@ -69,12 +69,12 @@ clases creds =
               }
         }
 
-reserva :: Creds -> Clase -> Resource ReservaResult
-reserva creds (Clase clase) =
+reserva :: String -> Creds -> Clase -> Resource ReservaResult
+reserva apiUrl creds (Clase clase) =
   Resource
     $ Option.recordFromRecord
         { method: M.postMethod
-        , url: "https://classes.megatlon.com.ar/api/service/class/book"
+        , url: apiUrl <> "/api/service/class/book"
         , body: stringify $ encodeJson { claseId: clase.claseId }
         , headers:
             M.makeHeaders
