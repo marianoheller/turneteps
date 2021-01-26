@@ -10,4 +10,6 @@
 /.spago
 /.vscode
 /dist
+/api
 .env
+.vercel

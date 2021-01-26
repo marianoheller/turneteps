@@ -8,26 +8,18 @@ import App.Env as Env
 import App.Request as Request
 import App.Resources as Resources
 import Control.Parallel (parallel, sequential)
-import Data.Either (Either(..))
+import Control.Promise (Promise, fromAff)
 import Data.Newtype (unwrap)
 import Data.Traversable (for)
 import Data.Tuple (Tuple(..))
 import Dotenv (loadFile) as Dotenv
 import Effect (Effect)
-import Effect.Aff (Error, runAff_)
+import Effect.Aff (Aff)
 import Effect.Class (liftEffect)
-import Effect.Console as Console
 import Foreign.Date (tomorrow)
 
 {- FIXME: date arg locale day -}
-handleResult :: Either Error String -> Effect Unit
-handleResult eResult = case eResult of
-  Right result -> Console.log result
-  Left err -> do
-    Console.error "Task could not be finished successfully"
-    Console.errorShow err
-
-main :: Effect Unit
+main :: Effect (Promise String)
 main =
   let
     initialResources creds =
@@ -36,6 +28,7 @@ main =
         <$> parallel (Request.fetch $ Resources.misReservas creds)
         <*> parallel (Request.fetch $ Resources.clases creds)
 
+    app :: Aff String
     app = do
       _ <- Dotenv.loadFile
       lowerBound <- liftEffect tomorrow
@@ -44,7 +37,7 @@ main =
       Tuple reservas clases <- initialResources creds
       let
         targetClases = BL.process lowerBound (Reservas.groupPerDate reservas) (Clases.groupPerDate clases)
-      results <- for (unwrap targetClases) (Request.fetch <<< Resources.reserva creds)
+      results <- sequential $ for (unwrap targetClases) (parallel <<< Request.fetch <<< Resources.reserva creds)
       pure $ show results <> show targetClases
   in
-    runAff_ handleResult app
+    fromAff app

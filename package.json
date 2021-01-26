@@ -2,7 +2,7 @@
   "name": "terneteps",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -14,8 +14,8 @@
     "parcel": "^1.12.4"
   },
   "scripts": {
-    "clean": "rm -rf dist",
-    "build": "npm run clean && mkdir -p dist && cp www/index.js dist/ && spago bundle-app --to dist/main.js"
+    "clean": "rm -rf api",
+    "build": "npm run clean && mkdir -p api && cp www/index.js api/ && spago bundle-module --to api/main.js"
   },
   "author": "",
   "license": "ISC"
