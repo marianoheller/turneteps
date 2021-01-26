@@ -19,6 +19,7 @@ import Effect.Class (liftEffect)
 import Effect.Console as Console
 import Foreign.Date (tomorrow)
 
+{- FIXME: date arg locale day -}
 handleResult :: Either Error String -> Effect Unit
 handleResult eResult = case eResult of
   Right result -> Console.log result
