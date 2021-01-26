@@ -1,7 +1,7 @@
 module App.Resources where
 
 import Prelude
-import App.Data.Clases (Clases)
+import App.Data.Clases (Clase(..), Clases)
 import App.Data.Creds (BasicAuth, Creds)
 import App.Data.Reservas (Reservas)
 import App.Env (LoginInput)
@@ -69,13 +69,13 @@ clases creds =
               }
         }
 
-reserva :: Creds -> Int -> Resource ReservaResult
-reserva creds claseId =
+reserva :: Creds -> Clase -> Resource ReservaResult
+reserva creds (Clase clase) =
   Resource
     $ Option.recordFromRecord
         { method: M.postMethod
         , url: "https://classes.megatlon.com.ar/api/service/class/book"
-        , body: stringify $ encodeJson { claseId }
+        , body: stringify $ encodeJson { claseId: clase.claseId }
         , headers:
             M.makeHeaders
               { "authorization": show creds

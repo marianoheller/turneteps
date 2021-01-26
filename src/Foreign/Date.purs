@@ -31,3 +31,6 @@ today :: Effect Date
 today = do
   jsdt <- now
   pure $ _unsafeToDate jsdt
+
+tomorrow :: Effect Date
+tomorrow = addDaysDate 1 <$> today
