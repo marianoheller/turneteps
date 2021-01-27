@@ -28,7 +28,7 @@ filterClases (Clases clases) =
   let
     compareDate (Clase a) (Clase b) = compare a.fecha b.fecha
   in
-    find (\(Clase clase) -> clase.coachId == 3) $ sortBy (compareDate) clases
+    find (\(Clase clase) -> clase.coachId == 3) $ sortBy compareDate clases
 
 process :: Int -> Date -> Reservas -> Clases -> Clases
 process targetDisciplinaId lower reservas clases =
