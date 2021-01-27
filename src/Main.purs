@@ -18,7 +18,6 @@ import Effect.Aff (Aff)
 import Effect.Class (liftEffect)
 import Foreign.Date (tomorrow)
 
-{- FIXME: date arg locale day -}
 main :: Effect (Promise String)
 main =
   let
@@ -39,6 +38,6 @@ main =
       let
         targetClases = BL.process lowerBound (Reservas.groupPerDate reservas) (Clases.groupPerDate clases)
       results <- sequential $ for (unwrap targetClases) (parallel <<< Request.fetch <<< Resources.reserva apiUrl creds)
-      pure $ show results <> show targetClases
+      pure $ (show targetClases) <> (show results)
   in
     fromAff app
