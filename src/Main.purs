@@ -2,8 +2,6 @@ module Main where
 
 import Prelude
 import App.BL as BL
-import App.Data.Clases as Clases
-import App.Data.Reservas as Reservas
 import App.Env as Env
 import App.Request as Request
 import App.Resources as Resources
@@ -31,12 +29,13 @@ main =
     app = do
       _ <- Dotenv.loadFile
       lowerBound <- liftEffect tomorrow
+      targetDisciplinaId <- liftEffect Env.getTargetDisciplinaId
       { apiUrl, usersUrl } <- liftEffect Env.getBaseUrls
       Tuple loginInput basicAuth <- liftEffect Env.getAuthInfo
       creds <- Request.fetch $ Resources.login usersUrl basicAuth loginInput
       Tuple reservas clases <- initialResources apiUrl creds
       let
-        targetClases = BL.process lowerBound (Reservas.groupPerDate reservas) (Clases.groupPerDate clases)
+        targetClases = BL.process targetDisciplinaId lowerBound reservas clases
       results <- sequential $ for (unwrap targetClases) (parallel <<< Request.fetch <<< Resources.reserva apiUrl creds)
       pure $ (show targetClases) <> (show results)
   in

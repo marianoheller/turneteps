@@ -2,7 +2,9 @@ module App.BL where
 
 import Prelude
 import App.Data.Clases (Clase(..), Clases(..))
+import App.Data.Clases as Clases
 import App.Data.Reservas (Reservas)
+import App.Data.Reservas as Reservas
 import Data.Array (snoc, sortBy)
 import Data.Date (Date)
 import Data.Foldable (find, foldl)
@@ -21,7 +23,6 @@ filterDays lower reservas clases =
   in
     M.difference filteredClases reservas
 
--- coachId = 3 == Musculacion
 filterClases :: Clases -> Maybe Clase
 filterClases (Clases clases) =
   let
@@ -29,9 +30,13 @@ filterClases (Clases clases) =
   in
     find (\(Clase clase) -> clase.coachId == 3) $ sortBy (compareDate) clases
 
-process :: Date -> Map Date Reservas -> Map Date Clases -> Clases
-process lower reservas =
+process :: Int -> Date -> Reservas -> Clases -> Clases
+process targetDisciplinaId lower reservas clases =
   let
-    folder acc clases = maybe acc (snoc acc) (filterClases clases)
+    mapReservas = Reservas.groupPerDate reservas
+
+    mapClases = Clases.groupPerDate clases
+
+    folder acc mclases = maybe acc (snoc acc) (filterClases mclases)
   in
-    wrap <<< foldl folder [] <<< M.values <<< filterDays lower reservas
+    wrap $ foldl folder [] $ M.values $ filterDays lower mapReservas mapClases

@@ -3,6 +3,7 @@ module App.Env where
 import Prelude
 import App.Data.Creds (BasicAuth, mkBasicAuth)
 import Data.Bitraversable (bisequence)
+import Data.Int (fromString)
 import Data.Maybe (fromMaybe)
 import Data.Tuple (Tuple(..))
 import Effect (Effect)
@@ -45,3 +46,8 @@ getBaseUrls = do
   apiUrl <- getEnvByKey "baseApiUrl"
   usersUrl <- getEnvByKey "baseUsersUrl"
   pure { apiUrl, usersUrl }
+
+getTargetDisciplinaId :: Effect Int
+getTargetDisciplinaId = do
+  disciplinaId <- getEnvByKey "disciplinaId"
+  pure $ fromMaybe 3 $ fromString disciplinaId
