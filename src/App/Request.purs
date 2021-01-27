@@ -57,13 +57,15 @@ fetch (Resource resouce) = do
     jsonParser = lmap error <<< Argonaut.jsonParser
 
     decode = lmap (error <<< show) <<< Argonaut.decodeJson
+
+    timingKey = "Parsing: " <> record.url
   rawResponse <- case record.body of
     Nothing -> _fetch url baseConfig
     Just body -> _fetch url $ Record.merge baseConfig { body }
   eitherJson <- (map jsonParser) $ M.text rawResponse
-  liftEffect $ Console.time record.url
+  liftEffect $ Console.time timingKey
   case decode =<< eitherJson of
     Right parsed -> do
-      liftEffect $ Console.timeEnd record.url
+      liftEffect $ Console.timeEnd timingKey
       pure parsed
     Left err -> throwError err
