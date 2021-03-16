@@ -1,4 +1,4 @@
-module ReservaResult where
+module App.Data.ReservaResult where
 
 import Prelude
 import Data.Argonaut (class DecodeJson, decodeJson, (.:))

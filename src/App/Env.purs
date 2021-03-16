@@ -1,12 +1,12 @@
 module App.Env where
 
 import Prelude
+
 import App.Data.Creds (BasicAuth, mkBasicAuth)
-import Data.Bitraversable (bisequence)
 import Data.Int (fromString)
 import Data.Maybe (fromMaybe)
-import Data.Tuple (Tuple(..))
 import Effect (Effect)
+import Effect.Console (log)
 import Foreign.Base64 (btoa)
 import Node.Process (lookupEnv)
 
@@ -33,8 +33,16 @@ getBasicAuth = do
   basicAuthCode <- getEnvByKey "basicAuthCode"
   pure $ mkBasicAuth $ btoa basicAuthCode
 
-getAuthInfo :: Effect (Tuple LoginInput BasicAuth)
-getAuthInfo = bisequence (Tuple getLoginInfo getBasicAuth)
+type AuthInfo
+  = { loginInput :: LoginInput
+    , basicAuth :: BasicAuth
+    }
+
+getAuthInfo :: Effect AuthInfo
+getAuthInfo = do
+  loginInput <- getLoginInfo
+  basicAuth <- getBasicAuth
+  pure { loginInput, basicAuth }
 
 type BaseUrls
   = { apiUrl :: String
@@ -51,3 +59,17 @@ getTargetDisciplinaId :: Effect Int
 getTargetDisciplinaId = do
   disciplinaId <- getEnvByKey "disciplinaId"
   pure $ fromMaybe 3 $ fromString disciplinaId
+
+type Env
+  = { baseUrls :: BaseUrls
+    , authInfo :: AuthInfo
+    , disciplinaId :: Int
+    }
+
+getEnv :: Effect Env
+getEnv = do
+  authInfo <- getAuthInfo
+  baseUrls <- getBaseUrls
+  disciplinaId <- getTargetDisciplinaId
+  _ <- log $ show baseUrls
+  pure { authInfo, baseUrls, disciplinaId }

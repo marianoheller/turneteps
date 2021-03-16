@@ -1,4 +1,4 @@
-module App.BL where
+module App.Utils where
 
 import Prelude
 import App.Data.Clases (Clase(..), Clases(..))

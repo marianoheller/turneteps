@@ -8,7 +8,7 @@ import App.Env (LoginInput)
 import Data.Argonaut (encodeJson, stringify)
 import Data.Maybe (Maybe(..))
 import Milkis as M
-import ReservaResult (ReservaResult)
+import App.Data.ReservaResult (ReservaResult)
 import Unsafe.Coerce (unsafeCoerce)
 import Foreign.URLSearchParams as URLSearchParams
 
