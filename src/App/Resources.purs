@@ -6,79 +6,73 @@ import App.Data.Creds (BasicAuth, Creds)
 import App.Data.Reservas (Reservas)
 import App.Env (LoginInput)
 import Data.Argonaut (encodeJson, stringify)
+import Data.Maybe (Maybe(..))
 import Milkis as M
-import Option as Option
 import ReservaResult (ReservaResult)
 import Unsafe.Coerce (unsafeCoerce)
-import Web.URL.URLSearchParams as SearchParams
+import Foreign.URLSearchParams as URLSearchParams
 
--- TODO: move baseurl to env
 type Slot
   = { start :: String, end :: String, status :: String }
-
-type ResourceBase
-  = ( method :: M.Method, url :: String, headers :: M.Headers )
 
 type ResourceExtras
   = ( body :: String )
 
+newtype Resource :: forall k. k -> Type
 newtype Resource a
-  = Resource (Option.Record ResourceBase ResourceExtras)
+  = Resource { method :: M.Method, url :: String, headers :: M.Headers, body :: Maybe String }
 
 toFormData :: LoginInput -> String
-toFormData r = SearchParams.toString $ SearchParams.fromString (unsafeCoerce r)
+toFormData r = URLSearchParams.toString $ URLSearchParams.fromString (unsafeCoerce r)
 
 login :: String -> BasicAuth -> LoginInput -> Resource Creds
 login usersUrl basicAuth loginInput =
   Resource
-    $ Option.recordFromRecord
-        { method: M.postMethod
-        , url: usersUrl <> "/oauth/token"
-        , body: toFormData loginInput
-        , headers:
-            M.makeHeaders
-              { "authorization": show basicAuth
-              , "content-type": "application/x-www-form-urlencoded"
-              }
-        }
+    { method: M.postMethod
+    , url: usersUrl <> "/oauth/token"
+    , body: Just $ toFormData loginInput
+    , headers:
+        M.makeHeaders
+          { "authorization": show basicAuth
+          , "content-type": "application/x-www-form-urlencoded"
+          }
+    }
 
 misReservas :: String -> Creds -> Resource Reservas
 misReservas apiUrl creds =
   Resource
-    $ Option.recordFromRecord
-        { method: M.postMethod
-        , url: apiUrl <> "/api/service/class/book/list"
-        , headers:
-            M.makeHeaders
-              { "authorization": show creds
-              , "content-type": "application/json"
-              }
-        }
+    { method: M.postMethod
+    , url: apiUrl <> "/api/service/class/book/list"
+    , body: Nothing
+    , headers:
+        M.makeHeaders
+          { "authorization": show creds
+          , "content-type": "application/json"
+          }
+    }
 
 clases :: String -> Creds -> Resource Clases
 clases apiUrl creds =
   Resource
-    $ Option.recordFromRecord
-        { method: M.postMethod
-        , url: apiUrl <> "/api/service/class/club/list"
-        , body: stringify $ encodeJson { clubId: 36 } -- FIXME: not hardcoded
-        , headers:
-            M.makeHeaders
-              { "authorization": show creds
-              , "content-type": "application/json"
-              }
-        }
+    { method: M.postMethod
+    , url: apiUrl <> "/api/service/class/club/list"
+    , body: Just $ stringify $ encodeJson { clubId: 36 } -- FIXME: not hardcoded
+    , headers:
+        M.makeHeaders
+          { "authorization": show creds
+          , "content-type": "application/json"
+          }
+    }
 
 reserva :: String -> Creds -> Clase -> Resource ReservaResult
 reserva apiUrl creds (Clase clase) =
   Resource
-    $ Option.recordFromRecord
-        { method: M.postMethod
-        , url: apiUrl <> "/api/service/class/book"
-        , body: stringify $ encodeJson { claseId: clase.claseId }
-        , headers:
-            M.makeHeaders
-              { "authorization": show creds
-              , "content-type": "application/json"
-              }
-        }
+    { method: M.postMethod
+    , url: apiUrl <> "/api/service/class/book"
+    , body: Just $ stringify $ encodeJson { claseId: clase.claseId }
+    , headers:
+        M.makeHeaders
+          { "authorization": show creds
+          , "content-type": "application/json"
+          }
+    }

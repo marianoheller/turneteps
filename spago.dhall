@@ -13,9 +13,7 @@ You can edit this file as you like.
   , "milkis"
   , "node-process"
   , "now"
-  , "option"
   , "psci-support"
-  , "web-url"
   ]
 , packages = ./packages.dhall
 , sources = [ "src/**/*.purs", "test/**/*.purs" ]

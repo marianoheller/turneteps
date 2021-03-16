@@ -15,7 +15,6 @@ import Effect.Unsafe (unsafePerformEffect)
 import Milkis (Response)
 import Milkis as M
 import Milkis.Impl.Node (nodeFetch)
-import Option as Option
 import Record as Record
 import Type.Row (class Union)
 
@@ -43,23 +42,21 @@ logger res =
     res
 
 fetch :: forall a. DecodeJson a => Resource a -> Aff a
-fetch (Resource resouce) = do
+fetch (Resource resource) = do
   let
-    record = Option.recordToRecord resouce
-
-    url = M.URL record.url
+    url = M.URL resource.url
 
     baseConfig =
-      { method: record.method
-      , headers: record.headers
+      { method: resource.method
+      , headers: resource.headers
       }
 
     jsonParser = lmap error <<< Argonaut.jsonParser
 
     decode = lmap (error <<< show) <<< Argonaut.decodeJson
 
-    timingKey = "Parsing: " <> record.url
-  rawResponse <- case record.body of
+    timingKey = "Parsing: " <> resource.url
+  rawResponse <- case resource.body of
     Nothing -> _fetch url baseConfig
     Just body -> _fetch url $ Record.merge baseConfig { body }
   eitherJson <- (map jsonParser) $ M.text rawResponse

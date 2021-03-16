@@ -11,13 +11,14 @@
     "node-fetch": "^2.6.1"
   },
   "devDependencies": {
+    "purescript": "^0.14.0",
     "parcel": "^1.12.4",
-    "purescript": "^0.13.8",
-    "spago": "^0.19.0"
+    "spago": "^0.19.1"
   },
   "scripts": {
     "clean": "rm -rf api",
-    "build": "npm run clean && mkdir -p api && cp www/index.js api/ && spago bundle-module --to api/main.js"
+    "build": "npm run clean && mkdir -p api && cp www/index.js api/ && spago bundle-module --to api/main.js",
+    "start": "node ."
   },
   "author": "",
   "license": "ISC"

@@ -104,21 +104,22 @@ in  upstream
       }
 -------------------------------
 -}
-
 let upstream =
-      https://github.com/purescript/package-sets/releases/download/psc-0.13.8-20201223/packages.dhall sha256:a1a8b096175f841c4fef64c9b605fb0d691229241fd2233f6cf46e213de8a185
+      https://github.com/purescript/package-sets/releases/download/psc-0.14.0-20210313/packages.dhall sha256:ba6368b31902aad206851fec930e89465440ebf5a1fe0391f8be396e2d2f1d87
 
 in  upstream
-  with js-uri =
+  with dotenv =
     { dependencies =
-       [ "assert"
-       , "effect"
-       , "functions"
-       , "maybe"
-       , "psci-support"
-       ]
-    , repo =
-       "https://github.com/purescript-contrib/purescript-js-uri.git"
-    , version =
-        "v1.0.0"
+      [ "console"
+      , "effect"
+      , "node-fs-aff"
+      , "node-process"
+      , "parsing"
+      , "psci-support"
+      , "run"
+      , "spec"
+      , "sunde"
+      ]
+    , repo = "https://github.com/marianoheller/purescript-dotenv.git"
+    , version = "v1.1.1"
     }
