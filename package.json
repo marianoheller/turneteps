@@ -18,7 +18,8 @@
   "scripts": {
     "clean": "rm -rf api",
     "build": "npm run clean && mkdir -p api && cp www/index.js api/ && spago bundle-module --to api/main.js",
-    "start": "node ."
+    "start": "node .",
+    "test": "spago -x spago-test.dhall test"
   },
   "author": "",
   "license": "ISC"

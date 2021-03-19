@@ -11,6 +11,8 @@ type ReservaResultData
 newtype ReservaResult
   = ReservaResult ReservaResultData
 
+derive instance eqReservaResult :: Eq ReservaResult
+
 instance showReservaResult :: Show ReservaResult where
   show (ReservaResult r) = show r
 

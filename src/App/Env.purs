@@ -1,19 +1,21 @@
 module App.Env where
 
 import Prelude
-
 import App.Data.Creds (BasicAuth, mkBasicAuth)
 import Data.Int (fromString)
-import Data.Maybe (fromMaybe)
+import Data.Maybe (Maybe(..), fromMaybe)
 import Effect (Effect)
 import Effect.Console (log)
+import Effect.Exception (throw)
 import Foreign.Base64 (btoa)
 import Node.Process (lookupEnv)
 
 getEnvByKey :: String -> Effect String
 getEnvByKey key = do
   mValue <- lookupEnv key
-  pure $ fromMaybe (key <> " env var not found.") mValue
+  case mValue of
+    Nothing -> throw (key <> " env var not found.")
+    Just v -> pure v
 
 type LoginInput
   = { username :: String
