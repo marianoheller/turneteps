@@ -23,8 +23,8 @@ import Data.Traversable (for)
 data AppF :: Type -> Type
 data AppF a =
     GetEnv (Env -> a)
-  | GetTomorrowDate (Date -> a)
   | Login String BasicAuth LoginInput ( Creds -> a)
+  | GetLowerDateBound (Date -> a)
   | GetReservas String Creds (Reservas -> a)
   | GetClases String Creds (Clases -> a)
   | PostReservas String Creds Clases (Array ReservaResult -> a)
@@ -38,8 +38,8 @@ type App
 getEnv :: App Env
 getEnv = liftF (GetEnv identity)
 
-getTomorrowDate :: App Date
-getTomorrowDate = liftF (GetTomorrowDate identity)
+getLowerDateBound :: App Date
+getLowerDateBound = liftF (GetLowerDateBound identity)
 
 login :: String -> BasicAuth -> LoginInput -> App Creds
 login url auth loginInput = liftF (Login url auth loginInput identity)
@@ -58,12 +58,12 @@ appI = case _ of
   (GetEnv next) -> do
     env <- liftEffect Env.getEnv
     pure $ next env
-  (GetTomorrowDate next) -> do
-    d <- liftEffect tomorrow
-    pure $ next d
   (Login url auth input next) -> do
     creds <- Request.fetch $ Resources.login url auth input
     pure $ next creds
+  (GetLowerDateBound next) -> do
+    d <- liftEffect tomorrow
+    pure $ next d
   (GetReservas url creds next) -> do
     reservas <- Request.fetch $ Resources.misReservas url creds
     pure $ next reservas
@@ -78,8 +78,8 @@ appI = case _ of
 app :: App (Array ReservaResult)
 app = do
   { baseUrls, authInfo, disciplinaId } <- getEnv
-  lowerBound <- getTomorrowDate
   creds <- login baseUrls.usersUrl authInfo.basicAuth authInfo.loginInput
+  lowerBound <- getLowerDateBound
   reservas <- getReservas baseUrls.apiUrl creds
   clases <- getClases baseUrls.apiUrl creds
   let

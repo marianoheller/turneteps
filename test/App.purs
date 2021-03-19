@@ -18,7 +18,7 @@ import Data.Maybe (fromJust)
 import Data.Newtype (unwrap)
 import Data.Traversable (for)
 import Dotenv (loadContents) as Dotenv
-import Effect.Aff (Aff, parallel, sequential)
+import Effect.Aff (Aff)
 import Effect.Class (liftEffect)
 import Effect.Exception (throw)
 import Node.Encoding (Encoding(..))
@@ -28,9 +28,9 @@ import Test.Spec.Assertions (shouldEqual)
 
 mockFetch :: forall a. DecodeJson a => Resource a -> Aff a
 mockFetch _ = do
-  a <- Argonaut.decodeJson <$> Argonaut.fromString <$> (readTextFile UTF8 "input.json")
+  a <- Argonaut.decodeJson <$> Argonaut.fromString <$> (readTextFile UTF8 "data/login.json")
   case a of
-    Left _ -> liftEffect $ throw "asd"
+    Left e -> liftEffect $ throw $ show e
     Right v -> pure v
 
 mockDate :: Date
@@ -49,7 +49,7 @@ appMockI = case _ of
     _ <- Dotenv.loadContents str
     testEnv <- liftEffect Env.getEnv
     pure $ next testEnv
-  (GetTomorrowDate next) -> do
+  (GetLowerDateBound next) -> do
     pure $ next mockDate
   (Login url auth input next) -> do
     creds <- mockFetch $ Resources.login url auth input
@@ -61,12 +61,12 @@ appMockI = case _ of
     clases <- mockFetch $ Resources.clases url creds
     pure $ next clases
   (PostReservas url creds clases next) -> do
-    results <- sequential $ for (unwrap clases) (parallel <<< mockFetch <<< Resources.reserva url creds)
+    results <- for (unwrap clases) (mockFetch <<< Resources.reserva url creds)
     pure $ next results
 
 spec :: forall i. Monad i => SpecT Aff Unit i Unit
 spec =
-  describe "purescript-spec" do
-    it "feature complete" do
+  describe "app" do
+    it "feature?" do
       result <- foldFree appMockI App.app
       result `shouldEqual` []

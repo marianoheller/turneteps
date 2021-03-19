@@ -55,8 +55,8 @@ clases :: String -> Creds -> Resource Clases
 clases apiUrl creds =
   Resource
     { method: M.postMethod
-    , url: apiUrl <> "/api/service/class/club/list"
-    , body: Just $ stringify $ encodeJson { clubId: 36 } -- FIXME: not hardcoded
+    , url: apiUrl <> "/api/service/class/club/category/list"
+    , body: Just $ stringify $ encodeJson { clubId: 36, categoryId: 3 } -- FIXME: not hardcoded
     , headers:
         M.makeHeaders
           { "authorization": show creds

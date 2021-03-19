@@ -5,7 +5,6 @@ import App.Data.Creds (BasicAuth, mkBasicAuth)
 import Data.Int (fromString)
 import Data.Maybe (Maybe(..), fromMaybe)
 import Effect (Effect)
-import Effect.Console (log)
 import Effect.Exception (throw)
 import Foreign.Base64 (btoa)
 import Node.Process (lookupEnv)
@@ -73,5 +72,4 @@ getEnv = do
   authInfo <- getAuthInfo
   baseUrls <- getBaseUrls
   disciplinaId <- getTargetDisciplinaId
-  _ <- log $ show baseUrls
   pure { authInfo, baseUrls, disciplinaId }

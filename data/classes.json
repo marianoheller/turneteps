@@ -1,0 +1,8070 @@
+{
+  "code": 0,
+  "message": "OK",
+  "result": [
+    {
+      "claseId": 1615320,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-19 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "19",
+      "reservas": 26
+    },
+    {
+      "claseId": 1615372,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-19 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "35",
+      "reservas": 10
+    },
+    {
+      "claseId": 1615435,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-19 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "34",
+      "reservas": 11
+    },
+    {
+      "claseId": 1615498,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-19 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "36",
+      "reservas": 9
+    },
+    {
+      "claseId": 1615572,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-19 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "44",
+      "reservas": 8
+    },
+    {
+      "claseId": 1615624,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-19 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "47",
+      "reservas": 5
+    },
+    {
+      "claseId": 1615687,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-19 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 7
+    },
+    {
+      "claseId": 1615750,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-19 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "51",
+      "reservas": 1
+    },
+    {
+      "claseId": 1615824,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-19 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "42",
+      "reservas": 3
+    },
+    {
+      "claseId": 1615876,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-19 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "35",
+      "reservas": 10
+    },
+    {
+      "claseId": 1615950,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-19 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "28",
+      "reservas": 17
+    },
+    {
+      "claseId": 1616002,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-19 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "32",
+      "reservas": 13
+    },
+    {
+      "claseId": 1616065,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-19 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "42",
+      "reservas": 3
+    },
+    {
+      "claseId": 1616117,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-19 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "49",
+      "reservas": 3
+    },
+    {
+      "claseId": 1615373,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-20 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "37",
+      "reservas": 8
+    },
+    {
+      "claseId": 1615436,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-20 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "44",
+      "reservas": 1
+    },
+    {
+      "claseId": 1615499,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-20 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "39",
+      "reservas": 6
+    },
+    {
+      "claseId": 1615561,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-20 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "43",
+      "reservas": 2
+    },
+    {
+      "claseId": 1615625,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-20 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615688,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-20 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "50",
+      "reservas": 2
+    },
+    {
+      "claseId": 1615751,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-20 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615813,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-20 16:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615928,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-20 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615939,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-20 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616054,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-20 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625810,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-22 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "51",
+      "reservas": 1
+    },
+    {
+      "claseId": 1625814,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-22 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625818,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-22 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625824,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-22 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625830,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-22 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625837,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-22 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625842,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-22 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625848,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-22 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625854,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-22 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625861,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-22 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625866,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-22 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625873,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-22 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625878,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-22 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625884,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-22 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625888,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-22 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625811,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-23 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625815,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-23 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625819,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-23 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625825,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-23 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625831,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-23 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625838,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-23 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625843,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-23 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625849,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-23 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625855,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-23 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625862,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-23 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625867,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-23 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625874,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-23 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625879,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-23 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625885,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-23 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625889,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-23 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625820,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-24 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625826,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-24 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625832,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-24 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625839,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-24 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625844,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-24 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625850,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-24 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625856,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-24 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625863,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-24 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625868,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-24 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625875,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-24 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625880,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-24 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625812,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-25 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625816,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-25 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625821,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-25 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625827,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-25 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625833,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-25 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625840,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-25 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625845,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-25 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625851,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-25 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625857,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-25 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625864,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-25 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625869,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-25 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625876,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-25 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625881,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-25 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625886,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-25 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625890,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-25 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625813,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-26 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625817,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-26 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625822,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-26 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625828,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-26 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625834,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-26 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625841,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-26 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625846,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-26 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625852,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-26 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625858,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-26 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625865,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-26 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625870,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-26 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625877,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-26 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625882,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-26 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625887,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-26 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625891,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-26 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625823,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-27 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625829,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-27 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625835,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-27 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625836,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-27 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625847,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-27 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625853,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-27 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625859,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-27 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625860,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-27 16:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625871,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-27 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625872,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-27 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1625883,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-27 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615274,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-29 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615326,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-29 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615380,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-29 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615443,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-29 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615506,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-29 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615578,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-29 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615632,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-29 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615695,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-29 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615758,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-29 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615830,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-29 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615882,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-29 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615956,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-29 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616008,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-29 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616071,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-29 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616123,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-29 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615275,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-30 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615327,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-30 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615381,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-30 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615444,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-30 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615507,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-30 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615579,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-30 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615633,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-30 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615696,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-30 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615759,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-30 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615831,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-30 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615883,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-30 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615957,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-30 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616009,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-30 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616072,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-30 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616124,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-30 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615276,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-31 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615328,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-31 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615382,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-31 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615445,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-31 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615508,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-31 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615580,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-31 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615634,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-31 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615697,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-31 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615760,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-31 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615832,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-31 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615884,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-31 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615958,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-31 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616010,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-31 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616073,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-31 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616125,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-03-31 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615277,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-01 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615329,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-01 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615383,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-01 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615446,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-01 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615509,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-01 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615581,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-01 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615635,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-01 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615698,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-01 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615761,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-01 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615833,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-01 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615885,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-01 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615959,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-01 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616011,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-01 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616074,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-01 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616126,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-01 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615278,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-02 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615330,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-02 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615384,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-02 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615447,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-02 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615510,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-02 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615582,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-02 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615636,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-02 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615699,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-02 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615762,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-02 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615834,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-02 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615886,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-02 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615960,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-02 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616012,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-02 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616075,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-02 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616127,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-02 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615385,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-03 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615448,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-03 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615511,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-03 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615563,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-03 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615637,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-03 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615700,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-03 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615763,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-03 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615815,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-03 16:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615930,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-03 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615941,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-03 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616056,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-03 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615279,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-05 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615331,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-05 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615386,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-05 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615449,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-05 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615512,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-05 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615583,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-05 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615638,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-05 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615701,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-05 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615764,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-05 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615835,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-05 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615887,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-05 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615961,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-05 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616013,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-05 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616076,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-05 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616128,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-05 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615280,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-06 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615332,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-06 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615387,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-06 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615450,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-06 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615513,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-06 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615584,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-06 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615639,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-06 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615702,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-06 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615765,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-06 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615836,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-06 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615888,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-06 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615962,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-06 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616014,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-06 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616077,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-06 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616129,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-06 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615281,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-07 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615333,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-07 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615388,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-07 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615451,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-07 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615514,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-07 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615585,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-07 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615640,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-07 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615703,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-07 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615766,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-07 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615837,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-07 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615889,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-07 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615963,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-07 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616015,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-07 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616078,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-07 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616130,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-07 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615282,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-08 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615334,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-08 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615389,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-08 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615452,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-08 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615515,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-08 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615586,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-08 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615641,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-08 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615704,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-08 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615767,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-08 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615838,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-08 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615890,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-08 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615964,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-08 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616016,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-08 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616079,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-08 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616131,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-08 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615283,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-09 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615335,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-09 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615390,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-09 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615453,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-09 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615516,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-09 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615587,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-09 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615642,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-09 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615705,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-09 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615768,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-09 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615839,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-09 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615891,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-09 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615965,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-09 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616017,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-09 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616080,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-09 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616132,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-09 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615391,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-10 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615454,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-10 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615517,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-10 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615564,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-10 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615643,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-10 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615706,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-10 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615769,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-10 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615816,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-10 16:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615931,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-10 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615942,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-10 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616057,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-10 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615284,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-12 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615336,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-12 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615392,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-12 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615455,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-12 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615518,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-12 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615588,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-12 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615644,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-12 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615707,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-12 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615770,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-12 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615840,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-12 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615892,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-12 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615966,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-12 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616018,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-12 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616081,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-12 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616133,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-12 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615285,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-13 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615337,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-13 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615393,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-13 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615456,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-13 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615519,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-13 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615589,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-13 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615645,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-13 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615708,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-13 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615771,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-13 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615841,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-13 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615893,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-13 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615967,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-13 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616019,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-13 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616082,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-13 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616134,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-13 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615286,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-14 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615338,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-14 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615394,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-14 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615457,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-14 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615520,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-14 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615590,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-14 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615646,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-14 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615709,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-14 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615772,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-14 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615842,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-14 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615894,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-14 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615968,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-14 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616020,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-14 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616083,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-14 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616135,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-14 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615287,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-15 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615339,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-15 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615395,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-15 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615458,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-15 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615521,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-15 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615591,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-15 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615647,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-15 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615710,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-15 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615773,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-15 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615843,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-15 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615895,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-15 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615969,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-15 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616021,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-15 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616084,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-15 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616136,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-15 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615288,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-16 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615340,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-16 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615396,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-16 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615459,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-16 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615522,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-16 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615592,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-16 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615648,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-16 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615711,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-16 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615774,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-16 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615844,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-16 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615896,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-16 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615970,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-16 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616022,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-16 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616085,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-16 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616137,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-16 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615397,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-17 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615460,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-17 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615523,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-17 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615565,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-17 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615649,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-17 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615712,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-17 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615775,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-17 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615817,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-17 16:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615932,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-17 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615943,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-17 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616058,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-17 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615289,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-19 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615341,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-19 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615398,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-19 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615461,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-19 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615524,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-19 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615593,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-19 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615650,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-19 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615713,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-19 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615776,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-19 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615845,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-19 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615897,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-19 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615971,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-19 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616023,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-19 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616086,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-19 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616138,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-19 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615290,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-20 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615342,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-20 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615399,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-20 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615462,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-20 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615525,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-20 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615594,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-20 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615651,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-20 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615714,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-20 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615777,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-20 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615846,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-20 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615898,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-20 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615972,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-20 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616024,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-20 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616087,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-20 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616139,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-20 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615291,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-21 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615343,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-21 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615400,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-21 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615463,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-21 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615526,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-21 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615595,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-21 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615652,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-21 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615715,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-21 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615778,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-21 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615847,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-21 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615899,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-21 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615973,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-21 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616025,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-21 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616088,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-21 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616140,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-21 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615292,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-22 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615344,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-22 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615401,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-22 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615464,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-22 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615527,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-22 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615596,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-22 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615653,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-22 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615716,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-22 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615779,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-22 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615848,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-22 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615900,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-22 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615974,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-22 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616026,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-22 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616089,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-22 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616141,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-22 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615293,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-23 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615345,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-23 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615402,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-23 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615465,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-23 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615528,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-23 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615597,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-23 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615654,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-23 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615717,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-23 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615780,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-23 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615849,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-23 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615901,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-23 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615975,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-23 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616027,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-23 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616090,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-23 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616142,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-23 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615403,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-24 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615466,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-24 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615529,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-24 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615566,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-24 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615655,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-24 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615718,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-24 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615781,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-24 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615818,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-24 16:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615933,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-24 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615944,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-24 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616059,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-24 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615294,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-26 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615346,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-26 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615404,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-26 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615467,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-26 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615530,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-26 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615598,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-26 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615656,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-26 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615719,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-26 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615782,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-26 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615850,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-26 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615902,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-26 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615976,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-26 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616028,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-26 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616091,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-26 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616143,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-26 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615295,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-27 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615347,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-27 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615405,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-27 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615468,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-27 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615531,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-27 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615599,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-27 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615657,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-27 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615720,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-27 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615783,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-27 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615851,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-27 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615903,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-27 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615977,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-27 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616029,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-27 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616092,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-27 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616144,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-27 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615296,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-28 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615348,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-28 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615406,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-28 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615469,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-28 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615532,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-28 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615600,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-28 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615658,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-28 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615721,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-28 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615784,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-28 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615852,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-28 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615904,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-28 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615978,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-28 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616030,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-28 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616093,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-28 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616145,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-28 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615297,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-29 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615349,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-29 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615407,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-29 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615470,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-29 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615533,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-29 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615601,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-29 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615659,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-29 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615722,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-29 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615785,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-29 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615853,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-29 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615905,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-29 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615979,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-29 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616031,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-29 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616094,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-29 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616146,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-29 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615298,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-30 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615350,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-30 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615408,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-30 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615471,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-30 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615534,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-30 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615602,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-30 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615660,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-30 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615723,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-30 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615786,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-30 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615854,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-30 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615906,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-30 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615980,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-30 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616032,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-30 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616095,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-30 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616147,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-04-30 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615409,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-01 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615472,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-01 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615535,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-01 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615567,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-01 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615661,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-01 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615724,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-01 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615787,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-01 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615819,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-01 16:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615934,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-01 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615945,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-01 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616060,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-01 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615299,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-03 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615351,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-03 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615410,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-03 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615473,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-03 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615536,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-03 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615603,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-03 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615662,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-03 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615725,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-03 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615788,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-03 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615855,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-03 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615907,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-03 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615981,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-03 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616033,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-03 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616096,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-03 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616148,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-03 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615300,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-04 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615352,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-04 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615411,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-04 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615474,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-04 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615537,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-04 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615604,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-04 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615663,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-04 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615726,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-04 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615789,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-04 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615856,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-04 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615908,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-04 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615982,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-04 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616034,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-04 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616097,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-04 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616149,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-04 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615301,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-05 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615353,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-05 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615412,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-05 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615475,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-05 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615538,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-05 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615605,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-05 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615664,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-05 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615727,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-05 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615790,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-05 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615857,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-05 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615909,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-05 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615983,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-05 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616035,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-05 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616098,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-05 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616150,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-05 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615302,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-06 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615354,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-06 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615413,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-06 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615476,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-06 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615539,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-06 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615606,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-06 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615665,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-06 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615728,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-06 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615791,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-06 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615858,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-06 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615910,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-06 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615984,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-06 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616036,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-06 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616099,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-06 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616151,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-06 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615303,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-07 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615355,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-07 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615414,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-07 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615477,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-07 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615540,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-07 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615607,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-07 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615666,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-07 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615729,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-07 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615792,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-07 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615859,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-07 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615911,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-07 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615985,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-07 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616037,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-07 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616100,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-07 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616152,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-07 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615415,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-08 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615478,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-08 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615541,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-08 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615568,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-08 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615667,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-08 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615730,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-08 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615793,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-08 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615820,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-08 16:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615935,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-08 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615946,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-08 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616061,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-08 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615304,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-10 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615356,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-10 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615416,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-10 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615479,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-10 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615542,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-10 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615608,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-10 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615668,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-10 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615731,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-10 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615794,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-10 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615860,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-10 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615912,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-10 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615986,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-10 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616038,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-10 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616101,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-10 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616153,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-10 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615305,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-11 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615357,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-11 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615417,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-11 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615480,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-11 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615543,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-11 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615609,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-11 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615669,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-11 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615732,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-11 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615795,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-11 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615861,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-11 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615913,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-11 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615987,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-11 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616039,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-11 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616102,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-11 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616154,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-11 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615306,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-12 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615358,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-12 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615418,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-12 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615481,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-12 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615544,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-12 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615610,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-12 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615670,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-12 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615733,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-12 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615796,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-12 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615862,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-12 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615914,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-12 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615988,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-12 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616040,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-12 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616103,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-12 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616155,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-12 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615307,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-13 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615359,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-13 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615419,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-13 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615482,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-13 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615545,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-13 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615611,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-13 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615671,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-13 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615734,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-13 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615797,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-13 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615863,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-13 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615915,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-13 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615989,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-13 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616041,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-13 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616104,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-13 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616156,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-13 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615308,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-14 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615360,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-14 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615420,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-14 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615483,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-14 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615546,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-14 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615612,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-14 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615672,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-14 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615735,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-14 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615798,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-14 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615864,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-14 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615916,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-14 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615990,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-14 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616042,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-14 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616105,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-14 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616157,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-14 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615421,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-15 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615484,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-15 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615547,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-15 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615569,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-15 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615673,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-15 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615736,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-15 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615799,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-15 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615821,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-15 16:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615936,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-15 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615947,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-15 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616062,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-15 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615309,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-17 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615361,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-17 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615422,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-17 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615485,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-17 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615548,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-17 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615613,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-17 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615674,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-17 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615737,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-17 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615800,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-17 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615865,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-17 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615917,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-17 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615991,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-17 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616043,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-17 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616106,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-17 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616158,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-17 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615310,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-18 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615362,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-18 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615423,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-18 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615486,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-18 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615549,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-18 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615614,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-18 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615675,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-18 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615738,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-18 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615801,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-18 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615866,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-18 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615918,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-18 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615992,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-18 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616044,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-18 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616107,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-18 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616159,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-18 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615311,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-19 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615363,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-19 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615424,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-19 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615487,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-19 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615550,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-19 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615615,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-19 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615676,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-19 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615739,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-19 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615802,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-19 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615867,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-19 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615919,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-19 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615993,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-19 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616045,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-19 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616108,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-19 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616160,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-19 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615312,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-20 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615364,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-20 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615425,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-20 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615488,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-20 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615551,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-20 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615616,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-20 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615677,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-20 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615740,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-20 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615803,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-20 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615868,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-20 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615920,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-20 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615994,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-20 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616046,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-20 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616109,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-20 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616161,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-20 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615313,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-21 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615365,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-21 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615426,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-21 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615489,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-21 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615552,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-21 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615617,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-21 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615678,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-21 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615741,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-21 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615804,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-21 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615869,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-21 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615921,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-21 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615995,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-21 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616047,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-21 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616110,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-21 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616162,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-21 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615427,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-22 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615490,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-22 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615553,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-22 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615570,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-22 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615679,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-22 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615742,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-22 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615805,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-22 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615822,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-22 16:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615937,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-22 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615948,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-22 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616063,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-22 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615314,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-24 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615366,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-24 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615428,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-24 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615491,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-24 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615554,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-24 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615618,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-24 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615680,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-24 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615743,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-24 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615806,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-24 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615870,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-24 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615922,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-24 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615996,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-24 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616048,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-24 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616111,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-24 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616163,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-24 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615315,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-25 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615367,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-25 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615429,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-25 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615492,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-25 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615555,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-25 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615619,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-25 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615681,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-25 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615744,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-25 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615807,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-25 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615871,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-25 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615923,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-25 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615997,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-25 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616049,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-25 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616112,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-25 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616164,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-25 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615316,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-26 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615368,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-26 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615430,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-26 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615493,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-26 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615556,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-26 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615620,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-26 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615682,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-26 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615745,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-26 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615808,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-26 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615872,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-26 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615924,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-26 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615998,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-26 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616050,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-26 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616113,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-26 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616165,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-26 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615317,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-27 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615369,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-27 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615431,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-27 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615494,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-27 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615557,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-27 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615621,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-27 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615683,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-27 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615746,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-27 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615809,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-27 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615873,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-27 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615925,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-27 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615999,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-27 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616051,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-27 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616114,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-27 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616166,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-27 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615318,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-28 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615370,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-28 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615432,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-28 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615495,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-28 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615558,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-28 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615622,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-28 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615684,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-28 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615747,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-28 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615810,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-28 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615874,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-28 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615926,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-28 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616000,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-28 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616052,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-28 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616115,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-28 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616167,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-28 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615433,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-29 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615496,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-29 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615559,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-29 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615571,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-29 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615685,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-29 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615748,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-29 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615811,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-29 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615823,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-29 16:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615938,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-29 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615949,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-29 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616064,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-29 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615319,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-31 07:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615371,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-31 08:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615434,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-31 09:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615497,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-31 10:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615560,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-31 11:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615623,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-31 12:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615686,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-31 13:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615749,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-31 14:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615812,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-31 15:00:00.0",
+      "duracion": "90",
+      "disponibilidad": "52",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615875,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-31 16:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1615927,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-31 17:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616001,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-31 18:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616053,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-31 19:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616116,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-31 20:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "45",
+      "reservas": 0
+    },
+    {
+      "claseId": 1616168,
+      "disciplinaId": 3,
+      "coachId": 16,
+      "fecha": "2021-05-31 21:00:00.0",
+      "duracion": "60",
+      "disponibilidad": "52",
+      "reservas": 0
+    }
+  ]
+}

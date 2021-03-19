@@ -12,5 +12,4 @@
 /dist
 /api
 .env
-.env-test
 .vercel

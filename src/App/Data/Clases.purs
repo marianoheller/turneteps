@@ -65,23 +65,3 @@ groupPerDate (Clases clases) =
     mapper c@(Clase d) = Tuple (toDate d.fecha) (singleton c)
   in
     M.fromFoldableWith (<>) $ map mapper clases
-
-{- 
-
-{
-  "code":0,
-  "message":"OK",
-  "result":[
-    {
-      claseId: 757814
-      coachId: 3
-      disciplinaId: 16
-      disponibilidad: "11"
-      duracion: "60"
-      fecha: "2021-01-16 09:00:00.0"
-      reservas: 14
-    }
-  ]
-}
-
- -}

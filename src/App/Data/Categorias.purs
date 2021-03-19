@@ -36,28 +36,3 @@ instance decodeJsonReservas :: DecodeJson Categorias where
     result <- obj .: "result"
     arrCats <- traverse decodeJson result
     pure $ Categorias arrCats
-
-
-
-{- 
-{
-  "code": 0,
-  "message": "OK",
-  "result": [
-    {
-      "id": 3,
-      "nombre": "1. Musculación + Cardio",
-      "descripcion": "1. Musculación + Cardio",
-      "tipo": null,
-      "imagen": "labujtabn.jpg"
-    },
-    {
-      "id": 11,
-      "nombre": "2. Spinning Indoor",
-      "descripcion": "2. Spinning Indoor",
-      "tipo": null,
-      "imagen": "kcfyqlfkud.jpg"
-    }
-  ]
-}
- -}
