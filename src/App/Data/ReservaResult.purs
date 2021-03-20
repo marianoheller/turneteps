@@ -2,6 +2,7 @@ module App.Data.ReservaResult where
 
 import Prelude
 import Data.Argonaut (class DecodeJson, decodeJson, (.:))
+import Data.Newtype (class Newtype)
 
 type ReservaResultData
   = { code :: Int
@@ -10,6 +11,8 @@ type ReservaResultData
 
 newtype ReservaResult
   = ReservaResult ReservaResultData
+
+derive instance newTypeReservaResult :: Newtype ReservaResult _
 
 derive instance eqReservaResult :: Eq ReservaResult
 

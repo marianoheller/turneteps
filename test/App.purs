@@ -18,7 +18,7 @@ import Data.Date as Date
 import Data.Either (Either(..))
 import Data.Enum (toEnum)
 import Data.Maybe (fromJust)
-import Data.Newtype (unwrap)
+import Data.Newtype (unwrap, wrap)
 import Data.String (joinWith)
 import Data.Traversable (for)
 import Dotenv (loadContents) as Dotenv
@@ -47,17 +47,20 @@ mockFetchReservas r = mockFetch_ "data/reservas.json" r
 mockFetchClases :: Resource Clases -> Aff Clases
 mockFetchClases r = mockFetch_ "data/classes.json" r
 
-mockPostReserva :: Resource ReservaResult -> Aff ReservaResult
-mockPostReserva r = mockFetch_ "data/reservaSuccess.json" r
+mockReservaSuccess :: Resource ReservaResult -> Aff ReservaResult
+mockReservaSuccess r = mockFetch_ "data/reservaSuccess.json" r
+
+mockReservaError :: Resource ReservaResult -> Aff ReservaResult
+mockReservaError r = mockFetch_ "data/reservaError.json" r
 
 mockDate :: Date
 mockDate =
   unsafePartial $ fromJust
     $ do
-        y <- toEnum 2000
-        m <- toEnum 10
-        d <- toEnum 10
-        pure $ Date.canonicalDate y m d
+        y <- toEnum 2021
+        m <- toEnum 3
+        d <- toEnum 18
+        Date.exactDate y m d
 
 appMockI :: AppF ~> Aff
 appMockI = case _ of
@@ -78,12 +81,16 @@ appMockI = case _ of
     clases <- mockFetchClases $ Resources.clases url creds
     pure $ next clases
   (PostReservas url creds clases next) -> do
-    results <- for (unwrap clases) (mockPostReserva <<< Resources.reserva url creds)
+    results <- for (unwrap clases) (mockReservaSuccess <<< Resources.reserva url creds)
     pure $ next results
 
 spec :: forall i. Monad i => SpecT Aff Unit i Unit
 spec =
   describe "app" do
-    it "feature?" do
+    it "should decode valid data & complete the flow" do
       result <- foldFree appMockI App.app
-      result `shouldEqual` []
+      let
+        expected = map wrap [ { code: 0, message: "OK" }, { code: 0, message: "OK" } ]
+      result `shouldEqual` expected
+
+-- TODO: test fail reserva, mix, better descriptions
