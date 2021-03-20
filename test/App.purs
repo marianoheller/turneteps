@@ -94,3 +94,4 @@ spec =
       result `shouldEqual` expected
 
 -- TODO: test fail reserva, mix, better descriptions
+-- TODO: quiickcheck inner pure functions
