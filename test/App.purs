@@ -13,6 +13,7 @@ import App.Resources as Resources
 import Control.Monad.Free (foldFree)
 import Data.Argonaut (class DecodeJson)
 import Data.Argonaut as Argonaut
+import Data.Array (replicate)
 import Data.Date (Date)
 import Data.Date as Date
 import Data.Either (Either(..))
@@ -90,8 +91,9 @@ spec =
     it "should decode valid data & complete the flow" do
       result <- foldFree appMockI App.app
       let
-        expected = map wrap [ { code: 0, message: "OK" }, { code: 0, message: "OK" } ]
+        expected = map wrap $ replicate 2 { code: 0, message: "OK" }
       result `shouldEqual` expected
 
 -- TODO: test fail reserva, mix, better descriptions
 -- TODO: quiickcheck inner pure functions
+-- better loggin con type mismatch (trim fileStr)
