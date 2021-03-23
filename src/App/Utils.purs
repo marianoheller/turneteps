@@ -14,8 +14,8 @@ import Data.Maybe (Maybe(..), maybe)
 import Data.Newtype (wrap)
 import Foreign.Date (addDaysDate)
 
-filterDays :: Date -> Map Date Reservas -> Map Date Clases -> Map Date Clases
-filterDays lower reservas clases =
+filterTargetDays :: Date -> Map Date Reservas -> Map Date Clases -> Map Date Clases
+filterTargetDays lower reservas clases =
   let
     upper = addDaysDate 2 lower
 
@@ -39,4 +39,4 @@ process targetDisciplinaId lower reservas clases =
 
     folder acc mclases = maybe acc (snoc acc) (filterClases mclases)
   in
-    wrap $ foldl folder [] $ M.values $ filterDays lower mapReservas mapClases
+    wrap $ foldl folder [] $ M.values $ filterTargetDays lower mapReservas mapClases
